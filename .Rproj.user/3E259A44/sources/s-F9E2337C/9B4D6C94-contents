@@ -7,8 +7,19 @@ output: pdf_document
 
 There are different trends, health wise, depending on where a person lives. This
 could be demographic or location wise. To look further into what exact trend
-is occurring I will be looking at nine different types of sicknesses. The data 
-will be collected from Arizona Environmental Public Health Tracking (EPHT) 
+is occurring I will be looking at nine different types of sicknesses.
+
+* Asthma
+* Carbon Monoxide Poising
+* COPD
+* Drinking Water Quality
+* Food Safety
+* Heart Disease
+* Heat Stress Illness
+* Infectious Diseases
+* Mortality
+
+The data will be collected from Arizona Environmental Public Health Tracking (EPHT) 
 Explorer. This website is a Graphical User Interface (GUI) with filters to 
 look at the different statistics of each sickness. The data is collected from
 different hospitals in Arizona. I will be specifically looking at county based
@@ -17,6 +28,18 @@ moved to collected information from the Census Database. I will be collecting
 county based data for the American Community Service (ACS), which has yearly
 data rather than every ten years. This will be able to match up better with the
 EPHT data. The ACS only has information with the top ten populated counties.
+
+* Apache
+* Cochise
+* Coconino
+* Maricopa
+* Mohave
+* Navajo
+* Pima
+* Pinal
+* Yavapi
+* Yuma
+
 This will exclude five counties in Arizona, but I feel that the EPHT data is 
 more accurate for the top ten counties. 
 
@@ -30,3 +53,5 @@ application. There will be separate tables in one database holding the data.
 It will be cleaned and organized in the application as well. Then, from R 
 studio it will be connected to the database in order to interact with the EPHT 
 data. For both sources, the data will be collected from 2005 to 2019.
+
+
