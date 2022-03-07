@@ -1,44 +1,61 @@
 import time
 import urllib.request
-
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
 
-driver = webdriver.Chrome()
+# NEED:
+###     CHANGE FILTERS FOR 'CONTENT AREA' AND 'YEAR'
+###     CREATE FUNCTION TO COLLECT ALL INFORMATION FOR EACH 'CONTENT AREA'
+###     ADD COLUMN TO DATA FRAME TO INCLUDE YEAR
+###     EXPORT NINE CSV FILES
 
+# initiate connection
+driver = webdriver.Chrome()
 URL = "https://gis.azdhs.gov/ephtexplorer/"
 driver.get(URL)
+
+# wait for website to load
 time.sleep(20)
+
+# switch to iframe page
 driver.switch_to.frame("iframe1")
+
+# count the number of columns and rows
 rows = 1 + len(driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody[1]/tr"))
 cols = len(driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/thead[1]/tr[1]/th")) - 1
+
+# get the column names and remove the first one
 headers = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/thead[1]/tr[1]/th")
 headers.pop(0)
 # for h in headers:
 #     print(h.text)
 
+# create data frame with column names
 df = pd.DataFrame(columns=[h.text for h in headers])
 
-counties = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody[1]/tr")
+# get the elements for each column
+# counties = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody[1]/tr")
 # for index, s in enumerate(counties):
 #     print('row {}:'.format(index))
 #     print('{}'.format(s.text))
-
 col1 = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody/tr/td[2]")
 col2 = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody/tr/td[3]")
 col3 = driver.find_elements(by=By.XPATH, value="html/body/div[@id='main-page']/div[@id='jimu-layout-manager']/div/div/div/div[3]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[@id='ValuesTable']/div[@id='insertedTable_wrapper']/table[@id='insertedTable']/tbody/tr/td[4]")
 
 # print(col1, end='\n')
 
+# put elements into the data frame
 df[df.columns[0]] = [s.text for s in col1]
 df[df.columns[1]] = [s.text for s in col2]
 df[df.columns[2]] = [s.text for s in col3]
 
+# create csv file
 df.to_csv('hospital_data.csv')
 
+# close out of the session
 driver.quit()
 
 
