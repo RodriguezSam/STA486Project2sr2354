@@ -8,9 +8,7 @@ from selenium.webdriver.support.select import Select
 import pandas as pd
 
 # NEED:
-###     CHANGE FILTERS FOR 'CONTENT AREA' AND 'YEAR'
 ###     CREATE FUNCTION TO COLLECT ALL INFORMATION FOR EACH 'CONTENT AREA'
-###     EXPORT NINE CSV FILES
 
 # initiate connection
 driver = webdriver.Chrome()
