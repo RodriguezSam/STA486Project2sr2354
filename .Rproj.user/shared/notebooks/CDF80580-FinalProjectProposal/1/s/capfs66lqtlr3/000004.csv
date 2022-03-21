@@ -1,0 +1,2 @@
+"0","asthma <- hospitalData[hospitalData$Content.Area == ""Asthma"" &"
+"0","                         hospitalData$County == ""MOHAVE"",]"

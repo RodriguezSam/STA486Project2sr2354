@@ -1,16 +1,1536 @@
-,County,Value,State (Rate),Year,Content.Area
-0,GILA,56.6,39.79,2017,Asthma
-1,MOHAVE,53.34,39.79,2017,Asthma
-2,GRAHAM,44.69,39.79,2017,Asthma
-3,MARICOPA,43.33,39.79,2017,Asthma
-4,SANTA CRUZ,38.96,39.79,2017,Asthma
-5,COCHISE,38.62,39.79,2017,Asthma
-6,LA PAZ,37.36,39.79,2017,Asthma
-7,YAVAPAI,34.4,39.79,2017,Asthma
-8,PINAL,33.09,39.79,2017,Asthma
-9,PIMA,32.36,39.79,2017,Asthma
-10,APACHE,29.8,39.79,2017,Asthma
-11,YUMA,28.89,39.79,2017,Asthma
-12,NAVAJO,28.69,39.79,2017,Asthma
-13,COCONINO,22.63,39.79,2017,Asthma
-14,GREENLEE,9.21,39.79,2017,Asthma
+,County,Value,State (Rate),Year,Content.Area,State (Avg)
+0,MOHAVE,46.53,37.22,2019,Asthma,
+1,GILA,46.12,37.22,2019,Asthma,
+2,SANTA CRUZ,45.36,37.22,2019,Asthma,
+3,MARICOPA,39.9,37.22,2019,Asthma,
+4,COCHISE,39.35,37.22,2019,Asthma,
+5,YUMA,34.12,37.22,2019,Asthma,
+6,LA PAZ,32.73,37.22,2019,Asthma,
+7,PIMA,32.58,37.22,2019,Asthma,
+8,PINAL,32.58,37.22,2019,Asthma,
+9,GRAHAM,31.95,37.22,2019,Asthma,
+10,APACHE,30.53,37.22,2019,Asthma,
+11,YAVAPAI,28.94,37.22,2019,Asthma,
+12,NAVAJO,22.74,37.22,2019,Asthma,
+13,COCONINO,19.71,37.22,2019,Asthma,
+14,GREENLEE,14.05,37.22,2019,Asthma,
+15,GILA,56.98,37.65,2018,Asthma,
+16,COCHISE,49.79,37.65,2018,Asthma,
+17,LA PAZ,48.27,37.65,2018,Asthma,
+18,MOHAVE,44.17,37.65,2018,Asthma,
+19,GRAHAM,42.28,37.65,2018,Asthma,
+20,SANTA CRUZ,41.28,37.65,2018,Asthma,
+21,MARICOPA,40.18,37.65,2018,Asthma,
+22,PINAL,33.7,37.65,2018,Asthma,
+23,YAVAPAI,33.31,37.65,2018,Asthma,
+24,PIMA,32.49,37.65,2018,Asthma,
+25,YUMA,26.31,37.65,2018,Asthma,
+26,APACHE,25.51,37.65,2018,Asthma,
+27,COCONINO,24.18,37.65,2018,Asthma,
+28,NAVAJO,24,37.65,2018,Asthma,
+29,GREENLEE,20.07,37.65,2018,Asthma,
+30,GILA,56.6,39.79,2017,Asthma,
+31,MOHAVE,53.34,39.79,2017,Asthma,
+32,GRAHAM,44.69,39.79,2017,Asthma,
+33,MARICOPA,43.33,39.79,2017,Asthma,
+34,SANTA CRUZ,38.96,39.79,2017,Asthma,
+35,COCHISE,38.62,39.79,2017,Asthma,
+36,LA PAZ,37.36,39.79,2017,Asthma,
+37,YAVAPAI,34.4,39.79,2017,Asthma,
+38,PINAL,33.09,39.79,2017,Asthma,
+39,PIMA,32.36,39.79,2017,Asthma,
+40,APACHE,29.8,39.79,2017,Asthma,
+41,YUMA,28.89,39.79,2017,Asthma,
+42,NAVAJO,28.69,39.79,2017,Asthma,
+43,COCONINO,22.63,39.79,2017,Asthma,
+44,GREENLEE,9.21,39.79,2017,Asthma,
+45,GILA,63.93,40.94,2016,Asthma,
+46,GRAHAM,50.59,40.94,2016,Asthma,
+47,LA PAZ,48.72,40.94,2016,Asthma,
+48,MOHAVE,45.67,40.94,2016,Asthma,
+49,MARICOPA,43.57,40.94,2016,Asthma,
+50,SANTA CRUZ,42.64,40.94,2016,Asthma,
+51,COCHISE,42.34,40.94,2016,Asthma,
+52,YAVAPAI,41.44,40.94,2016,Asthma,
+53,PIMA,36.55,40.94,2016,Asthma,
+54,PINAL,34.59,40.94,2016,Asthma,
+55,NAVAJO,33.74,40.94,2016,Asthma,
+56,YUMA,31.61,40.94,2016,Asthma,
+57,APACHE,28.59,40.94,2016,Asthma,
+58,COCONINO,23.33,40.94,2016,Asthma,
+59,GREENLEE,19.56,40.94,2016,Asthma,
+60,LA PAZ,64.82,42.64,2015,Asthma,
+61,GRAHAM,60.38,42.64,2015,Asthma,
+62,GILA,54.54,42.64,2015,Asthma,
+63,MOHAVE,52.1,42.64,2015,Asthma,
+64,MARICOPA,45.55,42.64,2015,Asthma,
+65,PINAL,40.25,42.64,2015,Asthma,
+66,YAVAPAI,40.1,42.64,2015,Asthma,
+67,SANTA CRUZ,37.34,42.64,2015,Asthma,
+68,YUMA,37.23,42.64,2015,Asthma,
+69,PIMA,35.87,42.64,2015,Asthma,
+70,COCHISE,35.79,42.64,2015,Asthma,
+71,NAVAJO,33.56,42.64,2015,Asthma,
+72,APACHE,32.24,42.64,2015,Asthma,
+73,COCONINO,21.98,42.64,2015,Asthma,
+74,GREENLEE,21.09,42.64,2015,Asthma,
+75,GRAHAM,60.19,42.61,2014,Asthma,
+76,LA PAZ,58.37,42.61,2014,Asthma,
+77,GILA,53.07,42.61,2014,Asthma,
+78,MOHAVE,51.84,42.61,2014,Asthma,
+79,MARICOPA,45.62,42.61,2014,Asthma,
+80,YAVAPAI,45.41,42.61,2014,Asthma,
+81,COCHISE,44.4,42.61,2014,Asthma,
+82,YUMA,39.85,42.61,2014,Asthma,
+83,PINAL,38.68,42.61,2014,Asthma,
+84,APACHE,37.5,42.61,2014,Asthma,
+85,SANTA CRUZ,36.36,42.61,2014,Asthma,
+86,PIMA,33.78,42.61,2014,Asthma,
+87,NAVAJO,29.95,42.61,2014,Asthma,
+88,GREENLEE,25.06,42.61,2014,Asthma,
+89,COCONINO,21.88,42.61,2014,Asthma,
+90,LA PAZ,63.19,40.73,2013,Asthma,
+91,GILA,53.56,40.73,2013,Asthma,
+92,MOHAVE,52.56,40.73,2013,Asthma,
+93,YUMA,46.07,40.73,2013,Asthma,
+94,COCHISE,45.9,40.73,2013,Asthma,
+95,GRAHAM,45.69,40.73,2013,Asthma,
+96,YAVAPAI,44.26,40.73,2013,Asthma,
+97,MARICOPA,43.12,40.73,2013,Asthma,
+98,APACHE,41.07,40.73,2013,Asthma,
+99,PINAL,37.91,40.73,2013,Asthma,
+100,NAVAJO,32.2,40.73,2013,Asthma,
+101,PIMA,31.22,40.73,2013,Asthma,
+102,SANTA CRUZ,25.64,40.73,2013,Asthma,
+103,COCONINO,22.2,40.73,2013,Asthma,
+104,GREENLEE,11.25,40.73,2013,Asthma,
+105,LA PAZ,68.09,45.59,2012,Asthma,
+106,GRAHAM,64.14,45.59,2012,Asthma,
+107,MOHAVE,62.62,45.59,2012,Asthma,
+108,GILA,59.68,45.59,2012,Asthma,
+109,YUMA,49.65,45.59,2012,Asthma,
+110,MARICOPA,48.44,45.59,2012,Asthma,
+111,YAVAPAI,45.37,45.59,2012,Asthma,
+112,COCHISE,45.25,45.59,2012,Asthma,
+113,PINAL,40.28,45.59,2012,Asthma,
+114,PIMA,36.71,45.59,2012,Asthma,
+115,APACHE,36.68,45.59,2012,Asthma,
+116,NAVAJO,33.66,45.59,2012,Asthma,
+117,SANTA CRUZ,27.39,45.59,2012,Asthma,
+118,COCONINO,23.99,45.59,2012,Asthma,
+119,GREENLEE,16.81,45.59,2012,Asthma,
+120,GILA,70.2,40.83,2011,Asthma,
+121,LA PAZ,68.39,40.83,2011,Asthma,
+122,MOHAVE,59.11,40.83,2011,Asthma,
+123,APACHE,57.67,40.83,2011,Asthma,
+124,GRAHAM,55.43,40.83,2011,Asthma,
+125,YUMA,44.23,40.83,2011,Asthma,
+126,COCHISE,42.38,40.83,2011,Asthma,
+127,MARICOPA,41.92,40.83,2011,Asthma,
+128,YAVAPAI,39.46,40.83,2011,Asthma,
+129,PINAL,35.48,40.83,2011,Asthma,
+130,PIMA,34.58,40.83,2011,Asthma,
+131,NAVAJO,31.11,40.83,2011,Asthma,
+132,COCONINO,28.36,40.83,2011,Asthma,
+133,SANTA CRUZ,25.97,40.83,2011,Asthma,
+134,GREENLEE,21.75,40.83,2011,Asthma,
+135,LA PAZ,82.85,40.57,2010,Asthma,
+136,GILA,60.93,40.57,2010,Asthma,
+137,MOHAVE,60.87,40.57,2010,Asthma,
+138,GRAHAM,57.6,40.57,2010,Asthma,
+139,COCHISE,51.7,40.57,2010,Asthma,
+140,APACHE,45.09,40.57,2010,Asthma,
+141,YUMA,42.51,40.57,2010,Asthma,
+142,MARICOPA,41.78,40.57,2010,Asthma,
+143,YAVAPAI,41.6,40.57,2010,Asthma,
+144,PIMA,35.41,40.57,2010,Asthma,
+145,COCONINO,30.82,40.57,2010,Asthma,
+146,SANTA CRUZ,30.21,40.57,2010,Asthma,
+147,PINAL,29.84,40.57,2010,Asthma,
+148,GREENLEE,28.24,40.57,2010,Asthma,
+149,NAVAJO,26.24,40.57,2010,Asthma,
+150,GRAHAM,59.85,41.32,2009,Asthma,
+151,MOHAVE,59.72,41.32,2009,Asthma,
+152,COCHISE,58.68,41.32,2009,Asthma,
+153,YUMA,56.63,41.32,2009,Asthma,
+154,GILA,50.86,41.32,2009,Asthma,
+155,LA PAZ,50.72,41.32,2009,Asthma,
+156,APACHE,43.98,41.32,2009,Asthma,
+157,MARICOPA,41.96,41.32,2009,Asthma,
+158,YAVAPAI,41.81,41.32,2009,Asthma,
+159,PIMA,35.91,41.32,2009,Asthma,
+160,SANTA CRUZ,33.33,41.32,2009,Asthma,
+161,PINAL,33.03,41.32,2009,Asthma,
+162,NAVAJO,28.62,41.32,2009,Asthma,
+163,GREENLEE,26.48,41.32,2009,Asthma,
+164,COCONINO,24.74,41.32,2009,Asthma,
+165,GRAHAM,62.9,39.44,2008,Asthma,
+166,MOHAVE,57.2,39.44,2008,Asthma,
+167,LA PAZ,57.1,39.44,2008,Asthma,
+168,COCHISE,53.47,39.44,2008,Asthma,
+169,YUMA,52.86,39.44,2008,Asthma,
+170,GILA,44.78,39.44,2008,Asthma,
+171,YAVAPAI,41.53,39.44,2008,Asthma,
+172,MARICOPA,39.61,39.44,2008,Asthma,
+173,SANTA CRUZ,38.08,39.44,2008,Asthma,
+174,PIMA,35.89,39.44,2008,Asthma,
+175,PINAL,35.02,39.44,2008,Asthma,
+176,NAVAJO,27.11,39.44,2008,Asthma,
+177,COCONINO,24.5,39.44,2008,Asthma,
+178,APACHE,20.18,39.44,2008,Asthma,
+179,GREENLEE,11.18,39.44,2008,Asthma,
+180,GILA,60.02,38.36,2007,Asthma,
+181,LA PAZ,59.26,38.36,2007,Asthma,
+182,GRAHAM,51.88,38.36,2007,Asthma,
+183,COCHISE,51.28,38.36,2007,Asthma,
+184,MOHAVE,46.71,38.36,2007,Asthma,
+185,YUMA,46.29,38.36,2007,Asthma,
+186,YAVAPAI,43.77,38.36,2007,Asthma,
+187,MARICOPA,38.65,38.36,2007,Asthma,
+188,PIMA,36.5,38.36,2007,Asthma,
+189,PINAL,33.22,38.36,2007,Asthma,
+190,SANTA CRUZ,31.97,38.36,2007,Asthma,
+191,NAVAJO,26.32,38.36,2007,Asthma,
+192,APACHE,21.11,38.36,2007,Asthma,
+193,COCONINO,20.78,38.36,2007,Asthma,
+194,GREENLEE,15.55,38.36,2007,Asthma,
+195,LA PAZ,75.41,37.51,2006,Asthma,
+196,GRAHAM,67.53,37.51,2006,Asthma,
+197,COCHISE,59.69,37.51,2006,Asthma,
+198,GILA,53.05,37.51,2006,Asthma,
+199,YUMA,43.95,37.51,2006,Asthma,
+200,PIMA,41.86,37.51,2006,Asthma,
+201,YAVAPAI,41.49,37.51,2006,Asthma,
+202,MOHAVE,39.49,37.51,2006,Asthma,
+203,MARICOPA,36.07,37.51,2006,Asthma,
+204,SANTA CRUZ,35.77,37.51,2006,Asthma,
+205,GREENLEE,34.79,37.51,2006,Asthma,
+206,PINAL,31.35,37.51,2006,Asthma,
+207,COCONINO,26.33,37.51,2006,Asthma,
+208,NAVAJO,25.43,37.51,2006,Asthma,
+209,APACHE,21.06,37.51,2006,Asthma,
+210,LA PAZ,92.83,41.43,2005,Asthma,
+211,COCHISE,58.35,41.43,2005,Asthma,
+212,GILA,58.13,41.43,2005,Asthma,
+213,GRAHAM,51.88,41.43,2005,Asthma,
+214,PIMA,48.32,41.43,2005,Asthma,
+215,YUMA,45.1,41.43,2005,Asthma,
+216,MOHAVE,43.9,41.43,2005,Asthma,
+217,MARICOPA,39.99,41.43,2005,Asthma,
+218,SANTA CRUZ,36.73,41.43,2005,Asthma,
+219,YAVAPAI,36.62,41.43,2005,Asthma,
+220,PINAL,36.54,41.43,2005,Asthma,
+221,APACHE,31.01,41.43,2005,Asthma,
+222,NAVAJO,29.58,41.43,2005,Asthma,
+223,COCONINO,28.78,41.43,2005,Asthma,
+224,GREENLEE,28.44,41.43,2005,Asthma,
+225,GRAHAM,19.9,1.78,2019,Carbon Monoxide Poisoning,
+226,COCHISE,7.98,1.78,2019,Carbon Monoxide Poisoning,
+227,YAVAPAI,3.86,1.78,2019,Carbon Monoxide Poisoning,
+228,PINAL,2.04,1.78,2019,Carbon Monoxide Poisoning,
+229,PIMA,1.76,1.78,2019,Carbon Monoxide Poisoning,
+230,MARICOPA,1.37,1.78,2019,Carbon Monoxide Poisoning,
+231,GREENLEE,0,1.78,2019,Carbon Monoxide Poisoning,
+232,LA PAZ,0,1.78,2019,Carbon Monoxide Poisoning,
+233,SANTA CRUZ,0,1.78,2019,Carbon Monoxide Poisoning,
+234,GRAHAM,16.5,2.13,2018,Carbon Monoxide Poisoning,
+235,COCONINO,11.8,2.13,2018,Carbon Monoxide Poisoning,
+236,YAVAPAI,9.03,2.13,2018,Carbon Monoxide Poisoning,
+237,PIMA,3.79,2.13,2018,Carbon Monoxide Poisoning,
+238,MARICOPA,1.18,2.13,2018,Carbon Monoxide Poisoning,
+239,GREENLEE,0,2.13,2018,Carbon Monoxide Poisoning,
+240,NAVAJO,8.1,1.56,2017,Carbon Monoxide Poisoning,
+241,YAVAPAI,7.36,1.56,2017,Carbon Monoxide Poisoning,
+242,COCONINO,6.05,1.56,2017,Carbon Monoxide Poisoning,
+243,COCHISE,3.62,1.56,2017,Carbon Monoxide Poisoning,
+244,PINAL,2.09,1.56,2017,Carbon Monoxide Poisoning,
+245,PIMA,1.58,1.56,2017,Carbon Monoxide Poisoning,
+246,MARICOPA,0.89,1.56,2017,Carbon Monoxide Poisoning,
+247,GILA,0,1.56,2017,Carbon Monoxide Poisoning,
+248,GREENLEE,0,1.56,2017,Carbon Monoxide Poisoning,
+249,COCONINO,8.36,1.41,2016,Carbon Monoxide Poisoning,
+250,COCHISE,7.21,1.41,2016,Carbon Monoxide Poisoning,
+251,YAVAPAI,4.97,1.41,2016,Carbon Monoxide Poisoning,
+252,PIMA,2.11,1.41,2016,Carbon Monoxide Poisoning,
+253,MARICOPA,0.75,1.41,2016,Carbon Monoxide Poisoning,
+254,GREENLEE,0,1.41,2016,Carbon Monoxide Poisoning,
+255,LA PAZ,0,1.41,2016,Carbon Monoxide Poisoning,
+256,COCONINO,10.78,1.56,2015,Carbon Monoxide Poisoning,
+257,YAVAPAI,5.56,1.56,2015,Carbon Monoxide Poisoning,
+258,MARICOPA,1.21,1.56,2015,Carbon Monoxide Poisoning,
+259,PIMA,0.91,1.56,2015,Carbon Monoxide Poisoning,
+260,SANTA CRUZ,0,1.56,2015,Carbon Monoxide Poisoning,
+261,COCHISE,0,1.56,2015,Carbon Monoxide Poisoning,
+262,GRAHAM,17.5,2,2014,Carbon Monoxide Poisoning,
+263,NAVAJO,7.13,2,2014,Carbon Monoxide Poisoning,
+264,PINAL,3.21,2,2014,Carbon Monoxide Poisoning,
+265,YUMA,3.14,2,2014,Carbon Monoxide Poisoning,
+266,COCONINO,3.01,2,2014,Carbon Monoxide Poisoning,
+267,PIMA,2,2,2014,Carbon Monoxide Poisoning,
+268,MARICOPA,1.32,2,2014,Carbon Monoxide Poisoning,
+269,APACHE,0,2,2014,Carbon Monoxide Poisoning,
+270,GREENLEE,0,2,2014,Carbon Monoxide Poisoning,
+271,LA PAZ,0,2,2014,Carbon Monoxide Poisoning,
+272,SANTA CRUZ,45.56,1.88,2013,Carbon Monoxide Poisoning,
+273,COCHISE,6.27,1.88,2013,Carbon Monoxide Poisoning,
+274,MOHAVE,3.42,1.88,2013,Carbon Monoxide Poisoning,
+275,YAVAPAI,3.26,1.88,2013,Carbon Monoxide Poisoning,
+276,PIMA,1.62,1.88,2013,Carbon Monoxide Poisoning,
+277,PINAL,1.6,1.88,2013,Carbon Monoxide Poisoning,
+278,MARICOPA,1.11,1.88,2013,Carbon Monoxide Poisoning,
+279,GREENLEE,0,1.88,2013,Carbon Monoxide Poisoning,
+280,SANTA CRUZ,28.04,2.08,2012,Carbon Monoxide Poisoning,
+281,YAVAPAI,9.69,2.08,2012,Carbon Monoxide Poisoning,
+282,PIMA,2.34,2.08,2012,Carbon Monoxide Poisoning,
+283,MARICOPA,1.59,2.08,2012,Carbon Monoxide Poisoning,
+284,GREENLEE,0,2.08,2012,Carbon Monoxide Poisoning,
+285,APACHE,0,2.08,2012,Carbon Monoxide Poisoning,
+286,COCONINO,12.31,2.24,2011,Carbon Monoxide Poisoning,
+287,YUMA,4.28,2.24,2011,Carbon Monoxide Poisoning,
+288,YAVAPAI,3.72,2.24,2011,Carbon Monoxide Poisoning,
+289,PIMA,2.82,2.24,2011,Carbon Monoxide Poisoning,
+290,MOHAVE,2.48,2.24,2011,Carbon Monoxide Poisoning,
+291,MARICOPA,1.62,2.24,2011,Carbon Monoxide Poisoning,
+292,GREENLEE,0,2.24,2011,Carbon Monoxide Poisoning,
+293,GILA,0,2.24,2011,Carbon Monoxide Poisoning,
+294,COCONINO,14.99,2.76,2010,Carbon Monoxide Poisoning,
+295,APACHE,11.45,2.76,2010,Carbon Monoxide Poisoning,
+296,MOHAVE,8.88,2.76,2010,Carbon Monoxide Poisoning,
+297,COCHISE,7.14,2.76,2010,Carbon Monoxide Poisoning,
+298,NAVAJO,7.03,2.76,2010,Carbon Monoxide Poisoning,
+299,YAVAPAI,4.28,2.76,2010,Carbon Monoxide Poisoning,
+300,PIMA,2.06,2.76,2010,Carbon Monoxide Poisoning,
+301,MARICOPA,1.73,2.76,2010,Carbon Monoxide Poisoning,
+302,GREENLEE,0,2.76,2010,Carbon Monoxide Poisoning,
+303,LA PAZ,0,2.76,2010,Carbon Monoxide Poisoning,
+304,COCONINO,6.92,1.55,2009,Carbon Monoxide Poisoning,
+305,PIMA,1.51,1.55,2009,Carbon Monoxide Poisoning,
+306,MARICOPA,1.26,1.55,2009,Carbon Monoxide Poisoning,
+307,LA PAZ,0,1.55,2009,Carbon Monoxide Poisoning,
+308,SANTA CRUZ,0,1.55,2009,Carbon Monoxide Poisoning,
+309,MOHAVE,5.15,1.78,2008,Carbon Monoxide Poisoning,
+310,YAVAPAI,4.52,1.78,2008,Carbon Monoxide Poisoning,
+311,PIMA,3.47,1.78,2008,Carbon Monoxide Poisoning,
+312,PINAL,2.41,1.78,2008,Carbon Monoxide Poisoning,
+313,MARICOPA,0.96,1.78,2008,Carbon Monoxide Poisoning,
+314,GREENLEE,0,1.78,2008,Carbon Monoxide Poisoning,
+315,LA PAZ,0,1.78,2008,Carbon Monoxide Poisoning,
+316,GRAHAM,19.86,2.49,2007,Carbon Monoxide Poisoning,
+317,SANTA CRUZ,13.2,2.49,2007,Carbon Monoxide Poisoning,
+318,COCONINO,11.63,2.49,2007,Carbon Monoxide Poisoning,
+319,NAVAJO,8.06,2.49,2007,Carbon Monoxide Poisoning,
+320,YAVAPAI,6.16,2.49,2007,Carbon Monoxide Poisoning,
+321,MOHAVE,6.12,2.49,2007,Carbon Monoxide Poisoning,
+322,PIMA,2.58,2.49,2007,Carbon Monoxide Poisoning,
+323,PINAL,2.58,2.49,2007,Carbon Monoxide Poisoning,
+324,MARICOPA,1.49,2.49,2007,Carbon Monoxide Poisoning,
+325,LA PAZ,0,2.49,2007,Carbon Monoxide Poisoning,
+326,GILA,0,2.49,2007,Carbon Monoxide Poisoning,
+327,YUMA,0,2.49,2007,Carbon Monoxide Poisoning,
+328,SANTA CRUZ,24.69,2.23,2006,Carbon Monoxide Poisoning,
+329,COCONINO,8.92,2.23,2006,Carbon Monoxide Poisoning,
+330,YAVAPAI,4.48,2.23,2006,Carbon Monoxide Poisoning,
+331,MOHAVE,3.41,2.23,2006,Carbon Monoxide Poisoning,
+332,PIMA,1.94,2.23,2006,Carbon Monoxide Poisoning,
+333,MARICOPA,1.67,2.23,2006,Carbon Monoxide Poisoning,
+334,APACHE,0,2.23,2006,Carbon Monoxide Poisoning,
+335,YUMA,0,2.23,2006,Carbon Monoxide Poisoning,
+336,GRAHAM,43.98,2.72,2005,Carbon Monoxide Poisoning,
+337,YAVAPAI,15,2.72,2005,Carbon Monoxide Poisoning,
+338,COCONINO,13.98,2.72,2005,Carbon Monoxide Poisoning,
+339,COCHISE,9.72,2.72,2005,Carbon Monoxide Poisoning,
+340,PIMA,3.11,2.72,2005,Carbon Monoxide Poisoning,
+341,MARICOPA,1.4,2.72,2005,Carbon Monoxide Poisoning,
+342,GILA,0,2.72,2005,Carbon Monoxide Poisoning,
+343,GREENLEE,0,2.72,2005,Carbon Monoxide Poisoning,
+344,YUMA,0,2.72,2005,Carbon Monoxide Poisoning,
+345,MOHAVE,0,2.72,2005,Carbon Monoxide Poisoning,
+346,MOHAVE,58.61,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+347,GILA,54.39,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+348,COCHISE,44.59,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+349,LA PAZ,42.54,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+350,YAVAPAI,32.1,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+351,GRAHAM,31.98,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+352,SANTA CRUZ,31.45,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+353,YUMA,29.84,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+354,NAVAJO,26.97,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+355,GREENLEE,25.07,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+356,PIMA,24.77,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+357,PINAL,23.55,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+358,APACHE,20.08,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+359,MARICOPA,19.53,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+360,COCONINO,16.34,23.68,2019,Chronic Obstructive Pulmonary Disease (COPD),
+361,MOHAVE,58.62,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+362,COCHISE,46.71,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+363,GILA,46.22,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+364,YAVAPAI,33.75,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+365,LA PAZ,32.9,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+366,GRAHAM,32.84,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+367,PINAL,27.87,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+368,PIMA,25.26,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+369,SANTA CRUZ,23.61,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+370,NAVAJO,23.51,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+371,YUMA,22.35,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+372,MARICOPA,20.52,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+373,COCONINO,18.63,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+374,APACHE,15.65,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+375,GREENLEE,8.05,24.31,2018,Chronic Obstructive Pulmonary Disease (COPD),
+376,MOHAVE,76.72,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+377,GILA,72.64,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+378,COCHISE,43.8,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+379,LA PAZ,39.25,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+380,YAVAPAI,39.24,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+381,PINAL,31.52,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+382,GRAHAM,30.65,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+383,SANTA CRUZ,30.38,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+384,PIMA,27.16,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+385,NAVAJO,24.11,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+386,MARICOPA,22.85,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+387,APACHE,22.29,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+388,YUMA,20.56,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+389,GREENLEE,19.36,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+390,COCONINO,18.41,27.27,2017,Chronic Obstructive Pulmonary Disease (COPD),
+391,GILA,75.77,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+392,MOHAVE,73.78,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+393,COCHISE,40.03,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+394,YAVAPAI,39.86,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+395,LA PAZ,35.66,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+396,GRAHAM,31.27,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+397,SANTA CRUZ,30.69,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+398,PIMA,29.96,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+399,PINAL,29.49,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+400,NAVAJO,22.79,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+401,MARICOPA,22.74,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+402,YUMA,21.03,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+403,COCONINO,19.08,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+404,APACHE,16.68,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+405,GREENLEE,14.24,27.24,2016,Chronic Obstructive Pulmonary Disease (COPD),
+406,GILA,68.3,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+407,LA PAZ,62.15,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+408,MOHAVE,52.48,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+409,GRAHAM,43.15,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+410,YAVAPAI,40.49,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+411,GREENLEE,31.77,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+412,COCHISE,30.91,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+413,PIMA,28.26,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+414,PINAL,27.91,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+415,SANTA CRUZ,23.94,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+416,MARICOPA,23.91,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+417,NAVAJO,21.93,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+418,APACHE,20.22,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+419,YUMA,18.86,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+420,COCONINO,14.94,26.73,2015,Chronic Obstructive Pulmonary Disease (COPD),
+421,GILA,62.97,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+422,MOHAVE,42.36,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+423,YAVAPAI,37.55,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+424,NAVAJO,36.54,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+425,GRAHAM,35.73,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+426,COCHISE,35.12,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+427,LA PAZ,34.22,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+428,PINAL,28.86,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+429,PIMA,23.66,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+430,APACHE,23.63,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+431,GREENLEE,23.26,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+432,MARICOPA,21.38,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+433,COCONINO,18.81,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+434,SANTA CRUZ,16.95,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+435,YUMA,16.57,24.28,2014,Chronic Obstructive Pulmonary Disease (COPD),
+436,GILA,59.13,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+437,LA PAZ,55.74,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+438,MOHAVE,41.85,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+439,YAVAPAI,40.66,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+440,NAVAJO,38.06,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+441,GRAHAM,35.17,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+442,APACHE,34.93,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+443,COCHISE,33.49,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+444,PINAL,29.87,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+445,GREENLEE,26.26,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+446,PIMA,23.87,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+447,YUMA,21.78,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+448,MARICOPA,19.55,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+449,SANTA CRUZ,19.06,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+450,COCONINO,13.85,23.56,2013,Chronic Obstructive Pulmonary Disease (COPD),
+451,GILA,61.65,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+452,LA PAZ,57.63,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+453,COCHISE,52.72,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+454,YAVAPAI,50.48,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+455,MOHAVE,47.54,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+456,GRAHAM,40.09,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+457,NAVAJO,35.13,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+458,PIMA,29.56,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+459,APACHE,26.76,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+460,PINAL,26.19,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+461,YUMA,25.78,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+462,MARICOPA,24.3,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+463,COCONINO,19.39,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+464,GREENLEE,17.88,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+465,SANTA CRUZ,16.76,28.14,2012,Chronic Obstructive Pulmonary Disease (COPD),
+466,GILA,66.92,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+467,LA PAZ,66.81,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+468,YAVAPAI,53.9,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+469,COCHISE,51.37,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+470,MOHAVE,50.97,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+471,GRAHAM,36.03,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+472,NAVAJO,30.65,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+473,YUMA,26.75,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+474,PINAL,25.71,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+475,PIMA,25.43,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+476,MARICOPA,23.82,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+477,COCONINO,23.79,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+478,APACHE,21.96,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+479,GREENLEE,19.52,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+480,SANTA CRUZ,18.35,27.48,2011,Chronic Obstructive Pulmonary Disease (COPD),
+481,LA PAZ,61.44,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+482,YAVAPAI,54.14,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+483,MOHAVE,52.48,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+484,GILA,46.18,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+485,COCHISE,41.43,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+486,GRAHAM,37.17,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+487,NAVAJO,31.27,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+488,PIMA,25.96,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+489,YUMA,25.45,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+490,GREENLEE,24.56,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+491,COCONINO,22.92,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+492,SANTA CRUZ,22.11,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+493,MARICOPA,20.16,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+494,PINAL,15.14,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+495,APACHE,14.87,24.31,2010,Chronic Obstructive Pulmonary Disease (COPD),
+496,LA PAZ,66.69,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+497,MOHAVE,47.03,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+498,YAVAPAI,46.41,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+499,GILA,43.68,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+500,COCHISE,37.84,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+501,YUMA,28.05,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+502,PIMA,27.61,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+503,NAVAJO,23.82,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+504,GRAHAM,22.09,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+505,MARICOPA,20.47,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+506,COCONINO,19.03,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+507,APACHE,18.98,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+508,SANTA CRUZ,15.22,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+509,PINAL,14.16,23.96,2009,Chronic Obstructive Pulmonary Disease (COPD),
+510,LA PAZ,66.94,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+511,GRAHAM,59.83,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+512,YAVAPAI,45.5,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+513,COCHISE,36.6,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+514,MOHAVE,36.28,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+515,GILA,35.17,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+516,GREENLEE,32.82,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+517,YUMA,29.99,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+518,PIMA,24.65,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+519,NAVAJO,22.43,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+520,MARICOPA,21.78,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+521,COCONINO,18.88,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+522,PINAL,15.85,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+523,APACHE,14.97,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+524,SANTA CRUZ,12.66,24.15,2008,Chronic Obstructive Pulmonary Disease (COPD),
+525,GRAHAM,63.18,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+526,LA PAZ,44.48,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+527,YAVAPAI,40.09,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+528,COCHISE,37.21,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+529,GILA,32.9,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+530,MOHAVE,30.85,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+531,YUMA,27.25,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+532,GREENLEE,25.78,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+533,PIMA,24,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+534,MARICOPA,19.03,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+535,COCONINO,18.89,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+536,NAVAJO,18.79,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+537,SANTA CRUZ,16.45,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+538,PINAL,14.78,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+539,APACHE,8.9,21.71,2007,Chronic Obstructive Pulmonary Disease (COPD),
+540,GRAHAM,67.02,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+541,COCHISE,39.05,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+542,GILA,38.18,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+543,LA PAZ,35.94,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+544,GREENLEE,34.86,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+545,MOHAVE,33.81,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+546,YAVAPAI,33.09,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+547,PIMA,25.28,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+548,YUMA,25.25,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+549,COCONINO,24.61,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+550,SANTA CRUZ,20.38,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+551,MARICOPA,18.48,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+552,NAVAJO,13.77,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+553,APACHE,11.82,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+554,PINAL,11.38,21.48,2006,Chronic Obstructive Pulmonary Disease (COPD),
+555,LA PAZ,92.6,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+556,GRAHAM,84.87,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+557,GILA,42.37,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+558,YUMA,41.93,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+559,COCHISE,41.48,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+560,GREENLEE,40.99,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+561,MOHAVE,37.29,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+562,PIMA,36.37,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+563,SANTA CRUZ,36.2,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+564,YAVAPAI,35.97,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+565,COCONINO,35.23,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+566,MARICOPA,24.81,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+567,NAVAJO,19.79,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+568,PINAL,15.36,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+569,APACHE,12.87,28.75,2005,Chronic Obstructive Pulmonary Disease (COPD),
+570,GILA,6,,2020,Drinking Water Quality,2
+571,PIMA,6,,2020,Drinking Water Quality,2
+572,MARICOPA,5,,2020,Drinking Water Quality,2
+573,COCONINO,4,,2020,Drinking Water Quality,2
+574,YAVAPAI,3,,2020,Drinking Water Quality,2
+575,COCHISE,2,,2020,Drinking Water Quality,2
+576,NAVAJO,2,,2020,Drinking Water Quality,2
+577,APACHE,1,,2020,Drinking Water Quality,2
+578,LA PAZ,1,,2020,Drinking Water Quality,2
+579,YUMA,1,,2020,Drinking Water Quality,2
+580,COCONINO,3,,2019,Drinking Water Quality,1
+581,NAVAJO,3,,2019,Drinking Water Quality,1
+582,PIMA,3,,2019,Drinking Water Quality,1
+583,YUMA,3,,2019,Drinking Water Quality,1
+584,APACHE,2,,2019,Drinking Water Quality,1
+585,COCHISE,2,,2019,Drinking Water Quality,1
+586,GRAHAM,2,,2019,Drinking Water Quality,1
+587,MARICOPA,2,,2019,Drinking Water Quality,1
+588,MOHAVE,1,,2019,Drinking Water Quality,1
+589,YAVAPAI,1,,2019,Drinking Water Quality,1
+590,COCONINO,4,,2018,Drinking Water Quality,1
+591,MARICOPA,4,,2018,Drinking Water Quality,1
+592,PIMA,3,,2018,Drinking Water Quality,1
+593,YAVAPAI,3,,2018,Drinking Water Quality,1
+594,YUMA,3,,2018,Drinking Water Quality,1
+595,GILA,2,,2018,Drinking Water Quality,1
+596,MOHAVE,2,,2018,Drinking Water Quality,1
+597,NAVAJO,2,,2018,Drinking Water Quality,1
+598,COCHISE,1,,2018,Drinking Water Quality,1
+599,PINAL,1,,2018,Drinking Water Quality,1
+600,GILA,4,,2017,Drinking Water Quality,1.53
+601,MARICOPA,4,,2017,Drinking Water Quality,1.53
+602,PIMA,4,,2017,Drinking Water Quality,1.53
+603,YUMA,3,,2017,Drinking Water Quality,1.53
+604,APACHE,2,,2017,Drinking Water Quality,1.53
+605,COCHISE,2,,2017,Drinking Water Quality,1.53
+606,YAVAPAI,2,,2017,Drinking Water Quality,1.53
+607,COCONINO,1,,2017,Drinking Water Quality,1.53
+608,GRAHAM,1,,2017,Drinking Water Quality,1.53
+609,MARICOPA,8,,2016,Drinking Water Quality,2.4
+610,MOHAVE,6,,2016,Drinking Water Quality,2.4
+611,COCHISE,3,,2016,Drinking Water Quality,2.4
+612,GILA,3,,2016,Drinking Water Quality,2.4
+613,PIMA,3,,2016,Drinking Water Quality,2.4
+614,YAVAPAI,3,,2016,Drinking Water Quality,2.4
+615,YUMA,3,,2016,Drinking Water Quality,2.4
+616,GRAHAM,2,,2016,Drinking Water Quality,2.4
+617,PINAL,2,,2016,Drinking Water Quality,2.4
+618,COCONINO,1,,2016,Drinking Water Quality,2.4
+619,GREENLEE,1,,2016,Drinking Water Quality,2.4
+620,NAVAJO,1,,2016,Drinking Water Quality,2.4
+621,MARICOPA,7,,2015,Drinking Water Quality,2.27
+622,PIMA,6,,2015,Drinking Water Quality,2.27
+623,MOHAVE,4,,2015,Drinking Water Quality,2.27
+624,YAVAPAI,4,,2015,Drinking Water Quality,2.27
+625,PINAL,3,,2015,Drinking Water Quality,2.27
+626,GILA,2,,2015,Drinking Water Quality,2.27
+627,NAVAJO,2,,2015,Drinking Water Quality,2.27
+628,YUMA,2,,2015,Drinking Water Quality,2.27
+629,COCHISE,1,,2015,Drinking Water Quality,2.27
+630,COCONINO,1,,2015,Drinking Water Quality,2.27
+631,GRAHAM,1,,2015,Drinking Water Quality,2.27
+632,LA PAZ,1,,2015,Drinking Water Quality,2.27
+633,MOHAVE,8,,2014,Drinking Water Quality,2.8
+634,MARICOPA,7,,2014,Drinking Water Quality,2.8
+635,GILA,5,,2014,Drinking Water Quality,2.8
+636,YUMA,5,,2014,Drinking Water Quality,2.8
+637,PIMA,4,,2014,Drinking Water Quality,2.8
+638,APACHE,3,,2014,Drinking Water Quality,2.8
+639,YAVAPAI,3,,2014,Drinking Water Quality,2.8
+640,COCONINO,2,,2014,Drinking Water Quality,2.8
+641,PINAL,2,,2014,Drinking Water Quality,2.8
+642,COCHISE,1,,2014,Drinking Water Quality,2.8
+643,GRAHAM,1,,2014,Drinking Water Quality,2.8
+644,NAVAJO,1,,2014,Drinking Water Quality,2.8
+645,MARICOPA,9,,2013,Drinking Water Quality,3.27
+646,PIMA,8,,2013,Drinking Water Quality,3.27
+647,COCHISE,6,,2013,Drinking Water Quality,3.27
+648,GILA,6,,2013,Drinking Water Quality,3.27
+649,MOHAVE,6,,2013,Drinking Water Quality,3.27
+650,PINAL,5,,2013,Drinking Water Quality,3.27
+651,YAVAPAI,3,,2013,Drinking Water Quality,3.27
+652,NAVAJO,2,,2013,Drinking Water Quality,3.27
+653,YUMA,2,,2013,Drinking Water Quality,3.27
+654,APACHE,1,,2013,Drinking Water Quality,3.27
+655,GRAHAM,1,,2013,Drinking Water Quality,3.27
+656,COCHISE,5,,2012,Drinking Water Quality,2.2
+657,MARICOPA,5,,2012,Drinking Water Quality,2.2
+658,MOHAVE,4,,2012,Drinking Water Quality,2.2
+659,NAVAJO,4,,2012,Drinking Water Quality,2.2
+660,PIMA,4,,2012,Drinking Water Quality,2.2
+661,YAVAPAI,3,,2012,Drinking Water Quality,2.2
+662,COCONINO,2,,2012,Drinking Water Quality,2.2
+663,GILA,2,,2012,Drinking Water Quality,2.2
+664,APACHE,1,,2012,Drinking Water Quality,2.2
+665,LA PAZ,1,,2012,Drinking Water Quality,2.2
+666,SANTA CRUZ,1,,2012,Drinking Water Quality,2.2
+667,YUMA,1,,2012,Drinking Water Quality,2.2
+668,PIMA,7,,2011,Drinking Water Quality,1.93
+669,GILA,5,,2011,Drinking Water Quality,1.93
+670,YAVAPAI,4,,2011,Drinking Water Quality,1.93
+671,YUMA,3,,2011,Drinking Water Quality,1.93
+672,COCHISE,2,,2011,Drinking Water Quality,1.93
+673,COCONINO,2,,2011,Drinking Water Quality,1.93
+674,MARICOPA,2,,2011,Drinking Water Quality,1.93
+675,NAVAJO,2,,2011,Drinking Water Quality,1.93
+676,GRAHAM,1,,2011,Drinking Water Quality,1.93
+677,MOHAVE,1,,2011,Drinking Water Quality,1.93
+678,PIMA,7,,2010,Drinking Water Quality,1.6
+679,GILA,4,,2010,Drinking Water Quality,1.6
+680,COCHISE,3,,2010,Drinking Water Quality,1.6
+681,MARICOPA,2,,2010,Drinking Water Quality,1.6
+682,PINAL,2,,2010,Drinking Water Quality,1.6
+683,YAVAPAI,2,,2010,Drinking Water Quality,1.6
+684,GRAHAM,1,,2010,Drinking Water Quality,1.6
+685,MOHAVE,1,,2010,Drinking Water Quality,1.6
+686,SANTA CRUZ,1,,2010,Drinking Water Quality,1.6
+687,YUMA,1,,2010,Drinking Water Quality,1.6
+688,PIMA,11,,2009,Drinking Water Quality,2.27
+689,COCHISE,5,,2009,Drinking Water Quality,2.27
+690,GILA,5,,2009,Drinking Water Quality,2.27
+691,PINAL,4,,2009,Drinking Water Quality,2.27
+692,MARICOPA,3,,2009,Drinking Water Quality,2.27
+693,SANTA CRUZ,2,,2009,Drinking Water Quality,2.27
+694,LA PAZ,1,,2009,Drinking Water Quality,2.27
+695,MOHAVE,1,,2009,Drinking Water Quality,2.27
+696,NAVAJO,1,,2009,Drinking Water Quality,2.27
+697,YUMA,1,,2009,Drinking Water Quality,2.27
+698,GILA,8,,2008,Drinking Water Quality,2.07
+699,YUMA,6,,2008,Drinking Water Quality,2.07
+700,COCHISE,3,,2008,Drinking Water Quality,2.07
+701,PIMA,3,,2008,Drinking Water Quality,2.07
+702,APACHE,2,,2008,Drinking Water Quality,2.07
+703,GRAHAM,2,,2008,Drinking Water Quality,2.07
+704,MOHAVE,2,,2008,Drinking Water Quality,2.07
+705,COCONINO,1,,2008,Drinking Water Quality,2.07
+706,MARICOPA,1,,2008,Drinking Water Quality,2.07
+707,NAVAJO,1,,2008,Drinking Water Quality,2.07
+708,PINAL,1,,2008,Drinking Water Quality,2.07
+709,SANTA CRUZ,1,,2008,Drinking Water Quality,2.07
+710,PIMA,29,,2007,Drinking Water Quality,9.27
+711,COCHISE,18,,2007,Drinking Water Quality,9.27
+712,GILA,17,,2007,Drinking Water Quality,9.27
+713,YAVAPAI,14,,2007,Drinking Water Quality,9.27
+714,PINAL,10,,2007,Drinking Water Quality,9.27
+715,COCONINO,9,,2007,Drinking Water Quality,9.27
+716,NAVAJO,7,,2007,Drinking Water Quality,9.27
+717,YUMA,7,,2007,Drinking Water Quality,9.27
+718,MARICOPA,6,,2007,Drinking Water Quality,9.27
+719,APACHE,5,,2007,Drinking Water Quality,9.27
+720,LA PAZ,5,,2007,Drinking Water Quality,9.27
+721,MOHAVE,4,,2007,Drinking Water Quality,9.27
+722,SANTA CRUZ,3,,2007,Drinking Water Quality,9.27
+723,GRAHAM,2,,2007,Drinking Water Quality,9.27
+724,GREENLEE,1,,2007,Drinking Water Quality,9.27
+725,GILA,6,,2006,Drinking Water Quality,1.4
+726,COCHISE,2,,2006,Drinking Water Quality,1.4
+727,MARICOPA,2,,2006,Drinking Water Quality,1.4
+728,PIMA,2,,2006,Drinking Water Quality,1.4
+729,YAVAPAI,2,,2006,Drinking Water Quality,1.4
+730,YUMA,2,,2006,Drinking Water Quality,1.4
+731,COCONINO,1,,2006,Drinking Water Quality,1.4
+732,GRAHAM,1,,2006,Drinking Water Quality,1.4
+733,NAVAJO,1,,2006,Drinking Water Quality,1.4
+734,PINAL,1,,2006,Drinking Water Quality,1.4
+735,SANTA CRUZ,1,,2006,Drinking Water Quality,1.4
+736,MARICOPA,"21,708",,2018,Food Safety,"2,353.2"
+737,PIMA,"5,018",,2018,Food Safety,"2,353.2"
+738,MOHAVE,"1,376",,2018,Food Safety,"2,353.2"
+739,COCONINO,"1,375",,2018,Food Safety,"2,353.2"
+740,YAVAPAI,"1,361",,2018,Food Safety,"2,353.2"
+741,PINAL,"1,066",,2018,Food Safety,"2,353.2"
+742,YUMA,930,,2018,Food Safety,"2,353.2"
+743,COCHISE,723,,2018,Food Safety,"2,353.2"
+744,NAVAJO,454,,2018,Food Safety,"2,353.2"
+745,GILA,376,,2018,Food Safety,"2,353.2"
+746,SANTA CRUZ,272,,2018,Food Safety,"2,353.2"
+747,LA PAZ,245,,2018,Food Safety,"2,353.2"
+748,GRAHAM,166,,2018,Food Safety,"2,353.2"
+749,APACHE,157,,2018,Food Safety,"2,353.2"
+750,GREENLEE,71,,2018,Food Safety,"2,353.2"
+751,MARICOPA,"21,178",,2017,Food Safety,"2,292.8"
+752,PIMA,"4,481",,2017,Food Safety,"2,292.8"
+753,MOHAVE,"1,341",,2017,Food Safety,"2,292.8"
+754,YAVAPAI,"1,333",,2017,Food Safety,"2,292.8"
+755,COCONINO,"1,229",,2017,Food Safety,"2,292.8"
+756,YUMA,"1,192",,2017,Food Safety,"2,292.8"
+757,PINAL,987,,2017,Food Safety,"2,292.8"
+758,COCHISE,882,,2017,Food Safety,"2,292.8"
+759,NAVAJO,478,,2017,Food Safety,"2,292.8"
+760,GILA,374,,2017,Food Safety,"2,292.8"
+761,SANTA CRUZ,273,,2017,Food Safety,"2,292.8"
+762,LA PAZ,244,,2017,Food Safety,"2,292.8"
+763,APACHE,165,,2017,Food Safety,"2,292.8"
+764,GRAHAM,160,,2017,Food Safety,"2,292.8"
+765,GREENLEE,75,,2017,Food Safety,"2,292.8"
+766,MARICOPA,"19,046",,2016,Food Safety,"2,100.23"
+767,PIMA,"4,400",,2016,Food Safety,"2,100.23"
+768,YAVAPAI,"1,343",,2016,Food Safety,"2,100.23"
+769,MOHAVE,"1,320",,2016,Food Safety,"2,100.23"
+770,COCONINO,"1,024.5",,2016,Food Safety,"2,100.23"
+771,PINAL,993,,2016,Food Safety,"2,100.23"
+772,COCHISE,795,,2016,Food Safety,"2,100.23"
+773,YUMA,790,,2016,Food Safety,"2,100.23"
+774,NAVAJO,442,,2016,Food Safety,"2,100.23"
+775,GILA,388,,2016,Food Safety,"2,100.23"
+776,SANTA CRUZ,304,,2016,Food Safety,"2,100.23"
+777,LA PAZ,276,,2016,Food Safety,"2,100.23"
+778,GRAHAM,170,,2016,Food Safety,"2,100.23"
+779,APACHE,160,,2016,Food Safety,"2,100.23"
+780,GREENLEE,52,,2016,Food Safety,"2,100.23"
+781,MARICOPA,"19,982",,2015,Food Safety,"2,173.8"
+782,PIMA,"4,520",,2015,Food Safety,"2,173.8"
+783,MOHAVE,"1,309",,2015,Food Safety,"2,173.8"
+784,YAVAPAI,"1,295",,2015,Food Safety,"2,173.8"
+785,COCONINO,"1,134",,2015,Food Safety,"2,173.8"
+786,PINAL,"1,004",,2015,Food Safety,"2,173.8"
+787,YUMA,883,,2015,Food Safety,"2,173.8"
+788,COCHISE,649,,2015,Food Safety,"2,173.8"
+789,GILA,392,,2015,Food Safety,"2,173.8"
+790,NAVAJO,376,,2015,Food Safety,"2,173.8"
+791,SANTA CRUZ,318,,2015,Food Safety,"2,173.8"
+792,LA PAZ,280,,2015,Food Safety,"2,173.8"
+793,APACHE,204,,2015,Food Safety,"2,173.8"
+794,GRAHAM,187,,2015,Food Safety,"2,173.8"
+795,GREENLEE,74,,2015,Food Safety,"2,173.8"
+796,MARICOPA,"20,647",,2014,Food Safety,"2,211.73"
+797,PIMA,"4,394",,2014,Food Safety,"2,211.73"
+798,MOHAVE,"1,298",,2014,Food Safety,"2,211.73"
+799,YAVAPAI,"1,241",,2014,Food Safety,"2,211.73"
+800,COCONINO,"1,165",,2014,Food Safety,"2,211.73"
+801,PINAL,"1,024",,2014,Food Safety,"2,211.73"
+802,YUMA,910,,2014,Food Safety,"2,211.73"
+803,COCHISE,558,,2014,Food Safety,"2,211.73"
+804,NAVAJO,489,,2014,Food Safety,"2,211.73"
+805,GILA,391,,2014,Food Safety,"2,211.73"
+806,SANTA CRUZ,294,,2014,Food Safety,"2,211.73"
+807,LA PAZ,292,,2014,Food Safety,"2,211.73"
+808,APACHE,204,,2014,Food Safety,"2,211.73"
+809,GRAHAM,191,,2014,Food Safety,"2,211.73"
+810,GREENLEE,78,,2014,Food Safety,"2,211.73"
+811,MARICOPA,"21,153",,2013,Food Safety,"2,246.8"
+812,PIMA,"4,404",,2013,Food Safety,"2,246.8"
+813,MOHAVE,"1,356",,2013,Food Safety,"2,246.8"
+814,YAVAPAI,"1,245",,2013,Food Safety,"2,246.8"
+815,COCONINO,"1,130",,2013,Food Safety,"2,246.8"
+816,PINAL,956,,2013,Food Safety,"2,246.8"
+817,YUMA,890,,2013,Food Safety,"2,246.8"
+818,COCHISE,603,,2013,Food Safety,"2,246.8"
+819,NAVAJO,593,,2013,Food Safety,"2,246.8"
+820,GILA,398,,2013,Food Safety,"2,246.8"
+821,SANTA CRUZ,295,,2013,Food Safety,"2,246.8"
+822,LA PAZ,250,,2013,Food Safety,"2,246.8"
+823,GRAHAM,189,,2013,Food Safety,"2,246.8"
+824,APACHE,178,,2013,Food Safety,"2,246.8"
+825,GREENLEE,62,,2013,Food Safety,"2,246.8"
+826,MARICOPA,"19,501",,2012,Food Safety,"2,184.93"
+827,PIMA,"4,648",,2012,Food Safety,"2,184.93"
+828,MOHAVE,"1,354",,2012,Food Safety,"2,184.93"
+829,YAVAPAI,"1,234",,2012,Food Safety,"2,184.93"
+830,COCONINO,"1,112",,2012,Food Safety,"2,184.93"
+831,PINAL,"1,014",,2012,Food Safety,"2,184.93"
+832,YUMA,958,,2012,Food Safety,"2,184.93"
+833,COCHISE,938,,2012,Food Safety,"2,184.93"
+834,NAVAJO,593,,2012,Food Safety,"2,184.93"
+835,GILA,432,,2012,Food Safety,"2,184.93"
+836,SANTA CRUZ,295,,2012,Food Safety,"2,184.93"
+837,LA PAZ,268,,2012,Food Safety,"2,184.93"
+838,GRAHAM,192,,2012,Food Safety,"2,184.93"
+839,APACHE,170,,2012,Food Safety,"2,184.93"
+840,GREENLEE,65,,2012,Food Safety,"2,184.93"
+841,MARICOPA,"20,802",,2011,Food Safety,"2,244"
+842,PIMA,"4,606",,2011,Food Safety,"2,244"
+843,MOHAVE,"1,326",,2011,Food Safety,"2,244"
+844,YAVAPAI,"1,205",,2011,Food Safety,"2,244"
+845,COCONINO,"1,085",,2011,Food Safety,"2,244"
+846,YUMA,971,,2011,Food Safety,"2,244"
+847,PINAL,947,,2011,Food Safety,"2,244"
+848,COCHISE,898,,2011,Food Safety,"2,244"
+849,NAVAJO,515,,2011,Food Safety,"2,244"
+850,GILA,408,,2011,Food Safety,"2,244"
+851,SANTA CRUZ,298,,2011,Food Safety,"2,244"
+852,LA PAZ,233,,2011,Food Safety,"2,244"
+853,GRAHAM,200,,2011,Food Safety,"2,244"
+854,APACHE,95,,2011,Food Safety,"2,244"
+855,GREENLEE,71,,2011,Food Safety,"2,244"
+856,MARICOPA,"20,877",,2010,Food Safety,"2,306"
+857,PIMA,"4,519",,2010,Food Safety,"2,306"
+858,COCONINO,"1,659",,2010,Food Safety,"2,306"
+859,MOHAVE,"1,378",,2010,Food Safety,"2,306"
+860,YAVAPAI,"1,209",,2010,Food Safety,"2,306"
+861,YUMA,"1,002",,2010,Food Safety,"2,306"
+862,PINAL,956,,2010,Food Safety,"2,306"
+863,COCHISE,898,,2010,Food Safety,"2,306"
+864,NAVAJO,726,,2010,Food Safety,"2,306"
+865,GILA,401,,2010,Food Safety,"2,306"
+866,SANTA CRUZ,314,,2010,Food Safety,"2,306"
+867,LA PAZ,214,,2010,Food Safety,"2,306"
+868,GRAHAM,200,,2010,Food Safety,"2,306"
+869,APACHE,164,,2010,Food Safety,"2,306"
+870,GREENLEE,73,,2010,Food Safety,"2,306"
+871,LA PAZ,23.39,13.22,2019,Heart Disease,
+872,GILA,22.17,13.22,2019,Heart Disease,
+873,MOHAVE,20.09,13.22,2019,Heart Disease,
+874,COCHISE,18.85,13.22,2019,Heart Disease,
+875,GREENLEE,18.79,13.22,2019,Heart Disease,
+876,GRAHAM,17.03,13.22,2019,Heart Disease,
+877,NAVAJO,15.08,13.22,2019,Heart Disease,
+878,YAVAPAI,15,13.22,2019,Heart Disease,
+879,YUMA,14.44,13.22,2019,Heart Disease,
+880,PINAL,14.19,13.22,2019,Heart Disease,
+881,APACHE,13.03,13.22,2019,Heart Disease,
+882,PIMA,12.83,13.22,2019,Heart Disease,
+883,MARICOPA,12.28,13.22,2019,Heart Disease,
+884,SANTA CRUZ,12.17,13.22,2019,Heart Disease,
+885,COCONINO,8.26,13.22,2019,Heart Disease,
+886,GREENLEE,24.32,13.25,2018,Heart Disease,
+887,GRAHAM,21.92,13.25,2018,Heart Disease,
+888,MOHAVE,20.11,13.25,2018,Heart Disease,
+889,COCHISE,20.02,13.25,2018,Heart Disease,
+890,GILA,18.58,13.25,2018,Heart Disease,
+891,YUMA,17.52,13.25,2018,Heart Disease,
+892,NAVAJO,14.68,13.25,2018,Heart Disease,
+893,YAVAPAI,14.2,13.25,2018,Heart Disease,
+894,PINAL,14.17,13.25,2018,Heart Disease,
+895,SANTA CRUZ,13.49,13.25,2018,Heart Disease,
+896,PIMA,13.25,13.25,2018,Heart Disease,
+897,LA PAZ,12.37,13.25,2018,Heart Disease,
+898,MARICOPA,12.08,13.25,2018,Heart Disease,
+899,APACHE,10.86,13.25,2018,Heart Disease,
+900,COCONINO,9.48,13.25,2018,Heart Disease,
+901,GRAHAM,27.96,13.88,2017,Heart Disease,
+902,GREENLEE,27.28,13.88,2017,Heart Disease,
+903,GILA,22.79,13.88,2017,Heart Disease,
+904,COCHISE,19.53,13.88,2017,Heart Disease,
+905,YUMA,17.8,13.88,2017,Heart Disease,
+906,NAVAJO,17.32,13.88,2017,Heart Disease,
+907,MOHAVE,17.1,13.88,2017,Heart Disease,
+908,YAVAPAI,14.13,13.88,2017,Heart Disease,
+909,PINAL,14.06,13.88,2017,Heart Disease,
+910,MARICOPA,13.4,13.88,2017,Heart Disease,
+911,PIMA,12.72,13.88,2017,Heart Disease,
+912,SANTA CRUZ,12.17,13.88,2017,Heart Disease,
+913,LA PAZ,12.11,13.88,2017,Heart Disease,
+914,APACHE,9.9,13.88,2017,Heart Disease,
+915,COCONINO,9.07,13.88,2017,Heart Disease,
+916,GREENLEE,24.61,13.66,2016,Heart Disease,
+917,GRAHAM,19.25,13.66,2016,Heart Disease,
+918,GILA,19.14,13.66,2016,Heart Disease,
+919,COCHISE,18.84,13.66,2016,Heart Disease,
+920,MOHAVE,17.55,13.66,2016,Heart Disease,
+921,NAVAJO,16.64,13.66,2016,Heart Disease,
+922,YUMA,16.08,13.66,2016,Heart Disease,
+923,LA PAZ,15.86,13.66,2016,Heart Disease,
+924,YAVAPAI,13.94,13.66,2016,Heart Disease,
+925,PINAL,13.77,13.66,2016,Heart Disease,
+926,MARICOPA,13.18,13.66,2016,Heart Disease,
+927,PIMA,12.96,13.66,2016,Heart Disease,
+928,SANTA CRUZ,12.61,13.66,2016,Heart Disease,
+929,APACHE,11.53,13.66,2016,Heart Disease,
+930,COCONINO,9.85,13.66,2016,Heart Disease,
+931,GRAHAM,23.39,13.62,2015,Heart Disease,
+932,GREENLEE,22.74,13.62,2015,Heart Disease,
+933,COCHISE,19.03,13.62,2015,Heart Disease,
+934,YUMA,17.82,13.62,2015,Heart Disease,
+935,MOHAVE,17.75,13.62,2015,Heart Disease,
+936,GILA,17.44,13.62,2015,Heart Disease,
+937,LA PAZ,17.07,13.62,2015,Heart Disease,
+938,NAVAJO,16.31,13.62,2015,Heart Disease,
+939,PINAL,14.74,13.62,2015,Heart Disease,
+940,YAVAPAI,14.01,13.62,2015,Heart Disease,
+941,SANTA CRUZ,13.3,13.62,2015,Heart Disease,
+942,MARICOPA,12.85,13.62,2015,Heart Disease,
+943,PIMA,12.67,13.62,2015,Heart Disease,
+944,APACHE,11.78,13.62,2015,Heart Disease,
+945,COCONINO,9.46,13.62,2015,Heart Disease,
+946,LA PAZ,24.65,12.83,2014,Heart Disease,
+947,COCHISE,20.19,12.83,2014,Heart Disease,
+948,GILA,19.84,12.83,2014,Heart Disease,
+949,GRAHAM,19.5,12.83,2014,Heart Disease,
+950,YUMA,16.28,12.83,2014,Heart Disease,
+951,MOHAVE,15.59,12.83,2014,Heart Disease,
+952,NAVAJO,15.56,12.83,2014,Heart Disease,
+953,YAVAPAI,13.22,12.83,2014,Heart Disease,
+954,PINAL,13.12,12.83,2014,Heart Disease,
+955,GREENLEE,12.9,12.83,2014,Heart Disease,
+956,SANTA CRUZ,12.87,12.83,2014,Heart Disease,
+957,MARICOPA,12.36,12.83,2014,Heart Disease,
+958,PIMA,11.36,12.83,2014,Heart Disease,
+959,APACHE,8.9,12.83,2014,Heart Disease,
+960,COCONINO,7.85,12.83,2014,Heart Disease,
+961,GREENLEE,26.59,12.9,2013,Heart Disease,
+962,COCHISE,21.74,12.9,2013,Heart Disease,
+963,GILA,20.23,12.9,2013,Heart Disease,
+964,NAVAJO,16.32,12.9,2013,Heart Disease,
+965,MOHAVE,16.27,12.9,2013,Heart Disease,
+966,GRAHAM,14.54,12.9,2013,Heart Disease,
+967,YUMA,14.23,12.9,2013,Heart Disease,
+968,SANTA CRUZ,13.58,12.9,2013,Heart Disease,
+969,LA PAZ,13.3,12.9,2013,Heart Disease,
+970,PINAL,13.17,12.9,2013,Heart Disease,
+971,YAVAPAI,12.77,12.9,2013,Heart Disease,
+972,MARICOPA,12.4,12.9,2013,Heart Disease,
+973,PIMA,11.89,12.9,2013,Heart Disease,
+974,APACHE,11.08,12.9,2013,Heart Disease,
+975,COCONINO,8.67,12.9,2013,Heart Disease,
+976,GREENLEE,32.53,13.7,2012,Heart Disease,
+977,COCHISE,23,13.7,2012,Heart Disease,
+978,GILA,21.87,13.7,2012,Heart Disease,
+979,LA PAZ,21.1,13.7,2012,Heart Disease,
+980,GRAHAM,20.84,13.7,2012,Heart Disease,
+981,NAVAJO,17.69,13.7,2012,Heart Disease,
+982,MOHAVE,17.12,13.7,2012,Heart Disease,
+983,YAVAPAI,14.77,13.7,2012,Heart Disease,
+984,YUMA,14.52,13.7,2012,Heart Disease,
+985,PINAL,14.03,13.7,2012,Heart Disease,
+986,APACHE,13.14,13.7,2012,Heart Disease,
+987,SANTA CRUZ,12.99,13.7,2012,Heart Disease,
+988,MARICOPA,12.92,13.7,2012,Heart Disease,
+989,PIMA,12.65,13.7,2012,Heart Disease,
+990,COCONINO,9.14,13.7,2012,Heart Disease,
+991,COCHISE,24.83,13.87,2011,Heart Disease,
+992,GILA,22.63,13.87,2011,Heart Disease,
+993,GREENLEE,22.19,13.87,2011,Heart Disease,
+994,GRAHAM,21.2,13.87,2011,Heart Disease,
+995,LA PAZ,19.5,13.87,2011,Heart Disease,
+996,MOHAVE,16.45,13.87,2011,Heart Disease,
+997,YUMA,15.55,13.87,2011,Heart Disease,
+998,PINAL,14.55,13.87,2011,Heart Disease,
+999,NAVAJO,14.34,13.87,2011,Heart Disease,
+1000,PIMA,13.57,13.87,2011,Heart Disease,
+1001,MARICOPA,13.17,13.87,2011,Heart Disease,
+1002,YAVAPAI,12.95,13.87,2011,Heart Disease,
+1003,SANTA CRUZ,11.64,13.87,2011,Heart Disease,
+1004,APACHE,11.28,13.87,2011,Heart Disease,
+1005,COCONINO,9.87,13.87,2011,Heart Disease,
+1006,GILA,24.57,14.48,2010,Heart Disease,
+1007,COCHISE,23.62,14.48,2010,Heart Disease,
+1008,LA PAZ,22.87,14.48,2010,Heart Disease,
+1009,GREENLEE,21.09,14.48,2010,Heart Disease,
+1010,MOHAVE,18.6,14.48,2010,Heart Disease,
+1011,GRAHAM,17.97,14.48,2010,Heart Disease,
+1012,YUMA,17.05,14.48,2010,Heart Disease,
+1013,NAVAJO,15.41,14.48,2010,Heart Disease,
+1014,PINAL,14.69,14.48,2010,Heart Disease,
+1015,PIMA,14.33,14.48,2010,Heart Disease,
+1016,SANTA CRUZ,14.1,14.48,2010,Heart Disease,
+1017,MARICOPA,13.74,14.48,2010,Heart Disease,
+1018,YAVAPAI,11.82,14.48,2010,Heart Disease,
+1019,COCONINO,11.35,14.48,2010,Heart Disease,
+1020,APACHE,10.61,14.48,2010,Heart Disease,
+1021,GILA,25.12,14.48,2009,Heart Disease,
+1022,COCHISE,24.43,14.48,2009,Heart Disease,
+1023,GRAHAM,23.86,14.48,2009,Heart Disease,
+1024,GREENLEE,20.95,14.48,2009,Heart Disease,
+1025,LA PAZ,16.93,14.48,2009,Heart Disease,
+1026,MOHAVE,16.79,14.48,2009,Heart Disease,
+1027,PINAL,16.13,14.48,2009,Heart Disease,
+1028,YUMA,15.79,14.48,2009,Heart Disease,
+1029,PIMA,14.78,14.48,2009,Heart Disease,
+1030,NAVAJO,14.44,14.48,2009,Heart Disease,
+1031,YAVAPAI,13.77,14.48,2009,Heart Disease,
+1032,APACHE,13.55,14.48,2009,Heart Disease,
+1033,MARICOPA,13.5,14.48,2009,Heart Disease,
+1034,SANTA CRUZ,11.69,14.48,2009,Heart Disease,
+1035,COCONINO,8.74,14.48,2009,Heart Disease,
+1036,GREENLEE,22.13,15.35,2008,Heart Disease,
+1037,COCHISE,21.4,15.35,2008,Heart Disease,
+1038,GRAHAM,20.02,15.35,2008,Heart Disease,
+1039,GILA,19.98,15.35,2008,Heart Disease,
+1040,PINAL,18.34,15.35,2008,Heart Disease,
+1041,SANTA CRUZ,17.88,15.35,2008,Heart Disease,
+1042,NAVAJO,17.37,15.35,2008,Heart Disease,
+1043,PIMA,16.74,15.35,2008,Heart Disease,
+1044,MOHAVE,15.18,15.35,2008,Heart Disease,
+1045,YUMA,14.57,15.35,2008,Heart Disease,
+1046,LA PAZ,14.53,15.35,2008,Heart Disease,
+1047,MARICOPA,14.43,15.35,2008,Heart Disease,
+1048,YAVAPAI,14.24,15.35,2008,Heart Disease,
+1049,APACHE,12.9,15.35,2008,Heart Disease,
+1050,COCONINO,12.8,15.35,2008,Heart Disease,
+1051,COCHISE,23.24,14.99,2007,Heart Disease,
+1052,GILA,20.79,14.99,2007,Heart Disease,
+1053,GRAHAM,20.49,14.99,2007,Heart Disease,
+1054,NAVAJO,18.66,14.99,2007,Heart Disease,
+1055,PINAL,18.05,14.99,2007,Heart Disease,
+1056,GREENLEE,18.01,14.99,2007,Heart Disease,
+1057,LA PAZ,17.33,14.99,2007,Heart Disease,
+1058,MOHAVE,16.36,14.99,2007,Heart Disease,
+1059,YUMA,16.11,14.99,2007,Heart Disease,
+1060,YAVAPAI,15.08,14.99,2007,Heart Disease,
+1061,PIMA,14.55,14.99,2007,Heart Disease,
+1062,SANTA CRUZ,14.32,14.99,2007,Heart Disease,
+1063,MARICOPA,14.17,14.99,2007,Heart Disease,
+1064,APACHE,13.9,14.99,2007,Heart Disease,
+1065,COCONINO,9.41,14.99,2007,Heart Disease,
+1066,COCHISE,22.3,15.86,2006,Heart Disease,
+1067,GRAHAM,22.03,15.86,2006,Heart Disease,
+1068,GILA,20.45,15.86,2006,Heart Disease,
+1069,PINAL,20.44,15.86,2006,Heart Disease,
+1070,LA PAZ,18.91,15.86,2006,Heart Disease,
+1071,MOHAVE,18.41,15.86,2006,Heart Disease,
+1072,YUMA,16.43,15.86,2006,Heart Disease,
+1073,YAVAPAI,15.79,15.86,2006,Heart Disease,
+1074,SANTA CRUZ,15.63,15.86,2006,Heart Disease,
+1075,MARICOPA,15.2,15.86,2006,Heart Disease,
+1076,PIMA,15.19,15.86,2006,Heart Disease,
+1077,NAVAJO,14.51,15.86,2006,Heart Disease,
+1078,COCONINO,11.93,15.86,2006,Heart Disease,
+1079,APACHE,11.91,15.86,2006,Heart Disease,
+1080,GREENLEE,7.52,15.86,2006,Heart Disease,
+1081,GRAHAM,26.81,16.64,2005,Heart Disease,
+1082,COCHISE,26.56,16.64,2005,Heart Disease,
+1083,PINAL,22.67,16.64,2005,Heart Disease,
+1084,LA PAZ,20.5,16.64,2005,Heart Disease,
+1085,NAVAJO,18.72,16.64,2005,Heart Disease,
+1086,GREENLEE,18.63,16.64,2005,Heart Disease,
+1087,SANTA CRUZ,18.59,16.64,2005,Heart Disease,
+1088,MOHAVE,18.03,16.64,2005,Heart Disease,
+1089,GILA,17.66,16.64,2005,Heart Disease,
+1090,YUMA,17.53,16.64,2005,Heart Disease,
+1091,PIMA,15.91,16.64,2005,Heart Disease,
+1092,MARICOPA,15.86,16.64,2005,Heart Disease,
+1093,YAVAPAI,15.32,16.64,2005,Heart Disease,
+1094,COCONINO,14.2,16.64,2005,Heart Disease,
+1095,APACHE,11.55,16.64,2005,Heart Disease,
+1096,YUMA,105.4,35.42,2019,Heat Stress Illness,
+1097,MOHAVE,67.93,35.42,2019,Heat Stress Illness,
+1098,GILA,59,35.42,2019,Heat Stress Illness,
+1099,PINAL,49.15,35.42,2019,Heat Stress Illness,
+1100,LA PAZ,47.54,35.42,2019,Heat Stress Illness,
+1101,GRAHAM,35.23,35.42,2019,Heat Stress Illness,
+1102,COCHISE,34.02,35.42,2019,Heat Stress Illness,
+1103,MARICOPA,33.65,35.42,2019,Heat Stress Illness,
+1104,SANTA CRUZ,29.52,35.42,2019,Heat Stress Illness,
+1105,PIMA,28.25,35.42,2019,Heat Stress Illness,
+1106,YAVAPAI,20.57,35.42,2019,Heat Stress Illness,
+1107,APACHE,14.05,35.42,2019,Heat Stress Illness,
+1108,COCONINO,12.94,35.42,2019,Heat Stress Illness,
+1109,NAVAJO,10.83,35.42,2019,Heat Stress Illness,
+1110,LA PAZ,153.14,36.69,2018,Heat Stress Illness,
+1111,YUMA,104.34,36.69,2018,Heat Stress Illness,
+1112,MOHAVE,89.59,36.69,2018,Heat Stress Illness,
+1113,PINAL,52.56,36.69,2018,Heat Stress Illness,
+1114,GILA,51.43,36.69,2018,Heat Stress Illness,
+1115,GRAHAM,37.71,36.69,2018,Heat Stress Illness,
+1116,MARICOPA,33.24,36.69,2018,Heat Stress Illness,
+1117,PIMA,31.27,36.69,2018,Heat Stress Illness,
+1118,COCHISE,29.76,36.69,2018,Heat Stress Illness,
+1119,YAVAPAI,22.58,36.69,2018,Heat Stress Illness,
+1120,SANTA CRUZ,18.86,36.69,2018,Heat Stress Illness,
+1121,COCONINO,17.99,36.69,2018,Heat Stress Illness,
+1122,NAVAJO,11.98,36.69,2018,Heat Stress Illness,
+1123,APACHE,9.74,36.69,2018,Heat Stress Illness,
+1124,LA PAZ,120.2,37.86,2017,Heat Stress Illness,
+1125,YUMA,106.39,37.86,2017,Heat Stress Illness,
+1126,MOHAVE,93.18,37.86,2017,Heat Stress Illness,
+1127,PINAL,45.75,37.86,2017,Heat Stress Illness,
+1128,COCHISE,44.34,37.86,2017,Heat Stress Illness,
+1129,GRAHAM,38.45,37.86,2017,Heat Stress Illness,
+1130,GILA,38.13,37.86,2017,Heat Stress Illness,
+1131,MARICOPA,35.8,37.86,2017,Heat Stress Illness,
+1132,PIMA,28.51,37.86,2017,Heat Stress Illness,
+1133,YAVAPAI,26.91,37.86,2017,Heat Stress Illness,
+1134,NAVAJO,19.54,37.86,2017,Heat Stress Illness,
+1135,COCONINO,16.57,37.86,2017,Heat Stress Illness,
+1136,APACHE,12.82,37.86,2017,Heat Stress Illness,
+1137,SANTA CRUZ,12.57,37.86,2017,Heat Stress Illness,
+1138,LA PAZ,172.69,36.4,2016,Heat Stress Illness,
+1139,MOHAVE,100.21,36.4,2016,Heat Stress Illness,
+1140,YUMA,88.98,36.4,2016,Heat Stress Illness,
+1141,GILA,52.08,36.4,2016,Heat Stress Illness,
+1142,GRAHAM,45.86,36.4,2016,Heat Stress Illness,
+1143,PINAL,45.11,36.4,2016,Heat Stress Illness,
+1144,MARICOPA,34.11,36.4,2016,Heat Stress Illness,
+1145,COCHISE,31.23,36.4,2016,Heat Stress Illness,
+1146,YAVAPAI,29.18,36.4,2016,Heat Stress Illness,
+1147,PIMA,27.72,36.4,2016,Heat Stress Illness,
+1148,COCONINO,21.82,36.4,2016,Heat Stress Illness,
+1149,NAVAJO,20.51,36.4,2016,Heat Stress Illness,
+1150,APACHE,11.81,36.4,2016,Heat Stress Illness,
+1151,LA PAZ,116.32,29.29,2015,Heat Stress Illness,
+1152,MOHAVE,86.32,29.29,2015,Heat Stress Illness,
+1153,YUMA,78.64,29.29,2015,Heat Stress Illness,
+1154,PINAL,38.37,29.29,2015,Heat Stress Illness,
+1155,GILA,37.06,29.29,2015,Heat Stress Illness,
+1156,MARICOPA,28.09,29.29,2015,Heat Stress Illness,
+1157,GRAHAM,22.85,29.29,2015,Heat Stress Illness,
+1158,YAVAPAI,21.68,29.29,2015,Heat Stress Illness,
+1159,PIMA,19.17,29.29,2015,Heat Stress Illness,
+1160,COCHISE,16.75,29.29,2015,Heat Stress Illness,
+1161,SANTA CRUZ,13.69,29.29,2015,Heat Stress Illness,
+1162,COCONINO,13.48,29.29,2015,Heat Stress Illness,
+1163,NAVAJO,10.29,29.29,2015,Heat Stress Illness,
+1164,APACHE,9.94,29.29,2015,Heat Stress Illness,
+1165,LA PAZ,111.48,26.06,2014,Heat Stress Illness,
+1166,YUMA,82.8,26.06,2014,Heat Stress Illness,
+1167,MOHAVE,75.08,26.06,2014,Heat Stress Illness,
+1168,PINAL,35.45,26.06,2014,Heat Stress Illness,
+1169,MARICOPA,24.46,26.06,2014,Heat Stress Illness,
+1170,GILA,21.05,26.06,2014,Heat Stress Illness,
+1171,PIMA,18.8,26.06,2014,Heat Stress Illness,
+1172,COCHISE,18.16,26.06,2014,Heat Stress Illness,
+1173,COCONINO,15.93,26.06,2014,Heat Stress Illness,
+1174,GRAHAM,14.08,26.06,2014,Heat Stress Illness,
+1175,APACHE,13.94,26.06,2014,Heat Stress Illness,
+1176,YAVAPAI,6.98,26.06,2014,Heat Stress Illness,
+1177,LA PAZ,125.73,27.73,2013,Heat Stress Illness,
+1178,YUMA,85.36,27.73,2013,Heat Stress Illness,
+1179,MOHAVE,58.2,27.73,2013,Heat Stress Illness,
+1180,GRAHAM,47.3,27.73,2013,Heat Stress Illness,
+1181,PINAL,39.94,27.73,2013,Heat Stress Illness,
+1182,GILA,31.81,27.73,2013,Heat Stress Illness,
+1183,MARICOPA,26.75,27.73,2013,Heat Stress Illness,
+1184,COCHISE,25.74,27.73,2013,Heat Stress Illness,
+1185,PIMA,17.74,27.73,2013,Heat Stress Illness,
+1186,YAVAPAI,13.9,27.73,2013,Heat Stress Illness,
+1187,COCONINO,13.43,27.73,2013,Heat Stress Illness,
+1188,NAVAJO,12.03,27.73,2013,Heat Stress Illness,
+1189,APACHE,9.62,27.73,2013,Heat Stress Illness,
+1190,GREENLEE,0,27.73,2013,Heat Stress Illness,
+1191,LA PAZ,126.68,30.01,2012,Heat Stress Illness,
+1192,YUMA,87.72,30.01,2012,Heat Stress Illness,
+1193,MOHAVE,61.2,30.01,2012,Heat Stress Illness,
+1194,GILA,40.58,30.01,2012,Heat Stress Illness,
+1195,PINAL,31.05,30.01,2012,Heat Stress Illness,
+1196,MARICOPA,29.34,30.01,2012,Heat Stress Illness,
+1197,GRAHAM,27.05,30.01,2012,Heat Stress Illness,
+1198,PIMA,22.71,30.01,2012,Heat Stress Illness,
+1199,YAVAPAI,21.66,30.01,2012,Heat Stress Illness,
+1200,COCHISE,21.44,30.01,2012,Heat Stress Illness,
+1201,NAVAJO,19.18,30.01,2012,Heat Stress Illness,
+1202,APACHE,13.27,30.01,2012,Heat Stress Illness,
+1203,COCONINO,13.06,30.01,2012,Heat Stress Illness,
+1204,LA PAZ,144.96,30.36,2011,Heat Stress Illness,
+1205,YUMA,81.43,30.36,2011,Heat Stress Illness,
+1206,MOHAVE,49.41,30.36,2011,Heat Stress Illness,
+1207,GRAHAM,38.41,30.36,2011,Heat Stress Illness,
+1208,PINAL,37.73,30.36,2011,Heat Stress Illness,
+1209,MARICOPA,31.31,30.36,2011,Heat Stress Illness,
+1210,GILA,29.87,30.36,2011,Heat Stress Illness,
+1211,COCHISE,23.72,30.36,2011,Heat Stress Illness,
+1212,PIMA,20.12,30.36,2011,Heat Stress Illness,
+1213,NAVAJO,17.72,30.36,2011,Heat Stress Illness,
+1214,SANTA CRUZ,17.72,30.36,2011,Heat Stress Illness,
+1215,YAVAPAI,12.76,30.36,2011,Heat Stress Illness,
+1216,COCONINO,11.04,30.36,2011,Heat Stress Illness,
+1217,MOHAVE,64.27,24.97,2010,Heat Stress Illness,
+1218,YUMA,56.82,24.97,2010,Heat Stress Illness,
+1219,PINAL,26.47,24.97,2010,Heat Stress Illness,
+1220,MARICOPA,25.06,24.97,2010,Heat Stress Illness,
+1221,COCHISE,22.43,24.97,2010,Heat Stress Illness,
+1222,GRAHAM,21.53,24.97,2010,Heat Stress Illness,
+1223,PIMA,20.62,24.97,2010,Heat Stress Illness,
+1224,LA PAZ,16.93,24.97,2010,Heat Stress Illness,
+1225,GILA,16.82,24.97,2010,Heat Stress Illness,
+1226,YAVAPAI,12.87,24.97,2010,Heat Stress Illness,
+1227,COCONINO,12.35,24.97,2010,Heat Stress Illness,
+1228,YUMA,71.04,21.5,2009,Heat Stress Illness,
+1229,LA PAZ,55.75,21.5,2009,Heat Stress Illness,
+1230,MOHAVE,44.14,21.5,2009,Heat Stress Illness,
+1231,PINAL,26.02,21.5,2009,Heat Stress Illness,
+1232,MARICOPA,21.61,21.5,2009,Heat Stress Illness,
+1233,GRAHAM,20.1,21.5,2009,Heat Stress Illness,
+1234,COCHISE,19.1,21.5,2009,Heat Stress Illness,
+1235,PIMA,14.65,21.5,2009,Heat Stress Illness,
+1236,GILA,13.03,21.5,2009,Heat Stress Illness,
+1237,YAVAPAI,11.95,21.5,2009,Heat Stress Illness,
+1238,COCONINO,8.61,21.5,2009,Heat Stress Illness,
+1239,GREENLEE,0,21.5,2009,Heat Stress Illness,
+1240,SANTA CRUZ,0,21.5,2009,Heat Stress Illness,
+1241,LA PAZ,81.02,21.01,2008,Heat Stress Illness,
+1242,YUMA,54.66,21.01,2008,Heat Stress Illness,
+1243,MOHAVE,39.35,21.01,2008,Heat Stress Illness,
+1244,MARICOPA,21.83,21.01,2008,Heat Stress Illness,
+1245,PINAL,21.7,21.01,2008,Heat Stress Illness,
+1246,COCHISE,20.5,21.01,2008,Heat Stress Illness,
+1247,GRAHAM,20.05,21.01,2008,Heat Stress Illness,
+1248,GILA,19.21,21.01,2008,Heat Stress Illness,
+1249,PIMA,14.21,21.01,2008,Heat Stress Illness,
+1250,APACHE,13.18,21.01,2008,Heat Stress Illness,
+1251,COCONINO,11.12,21.01,2008,Heat Stress Illness,
+1252,YAVAPAI,8.47,21.01,2008,Heat Stress Illness,
+1253,NAVAJO,7.66,21.01,2008,Heat Stress Illness,
+1254,LA PAZ,76.18,22.84,2007,Heat Stress Illness,
+1255,YUMA,55.83,22.84,2007,Heat Stress Illness,
+1256,MOHAVE,34.48,22.84,2007,Heat Stress Illness,
+1257,PINAL,30.77,22.84,2007,Heat Stress Illness,
+1258,COCHISE,23.85,22.84,2007,Heat Stress Illness,
+1259,MARICOPA,23.35,22.84,2007,Heat Stress Illness,
+1260,SANTA CRUZ,19.99,22.84,2007,Heat Stress Illness,
+1261,GRAHAM,19.59,22.84,2007,Heat Stress Illness,
+1262,GILA,17.21,22.84,2007,Heat Stress Illness,
+1263,PIMA,15.51,22.84,2007,Heat Stress Illness,
+1264,YAVAPAI,11.98,22.84,2007,Heat Stress Illness,
+1265,COCONINO,11.4,22.84,2007,Heat Stress Illness,
+1266,APACHE,9.87,22.84,2007,Heat Stress Illness,
+1267,NAVAJO,5.53,22.84,2007,Heat Stress Illness,
+1268,LA PAZ,77,22.59,2006,Heat Stress Illness,
+1269,YUMA,61.15,22.59,2006,Heat Stress Illness,
+1270,MOHAVE,35.44,22.59,2006,Heat Stress Illness,
+1271,PINAL,28.01,22.59,2006,Heat Stress Illness,
+1272,GILA,27.76,22.59,2006,Heat Stress Illness,
+1273,COCHISE,26.35,22.59,2006,Heat Stress Illness,
+1274,MARICOPA,22.93,22.59,2006,Heat Stress Illness,
+1275,GRAHAM,17.91,22.59,2006,Heat Stress Illness,
+1276,PIMA,16.15,22.59,2006,Heat Stress Illness,
+1277,SANTA CRUZ,13.56,22.59,2006,Heat Stress Illness,
+1278,YAVAPAI,12.73,22.59,2006,Heat Stress Illness,
+1279,APACHE,11.71,22.59,2006,Heat Stress Illness,
+1280,COCONINO,7.42,22.59,2006,Heat Stress Illness,
+1281,GREENLEE,0,22.59,2006,Heat Stress Illness,
+1282,LA PAZ,81.23,24,2005,Heat Stress Illness,
+1283,YUMA,63.24,24,2005,Heat Stress Illness,
+1284,GRAHAM,44.1,24,2005,Heat Stress Illness,
+1285,MOHAVE,34.48,24,2005,Heat Stress Illness,
+1286,COCHISE,32.67,24,2005,Heat Stress Illness,
+1287,PINAL,32.31,24,2005,Heat Stress Illness,
+1288,GILA,24.56,24,2005,Heat Stress Illness,
+1289,MARICOPA,24.01,24,2005,Heat Stress Illness,
+1290,SANTA CRUZ,19.42,24,2005,Heat Stress Illness,
+1291,PIMA,17.6,24,2005,Heat Stress Illness,
+1292,YAVAPAI,12.37,24,2005,Heat Stress Illness,
+1293,NAVAJO,9.18,24,2005,Heat Stress Illness,
+1294,COCONINO,7.61,24,2005,Heat Stress Illness,
+1295,PINAL,123.6,98.8,2017,Infectious Diseases,
+1296,GILA,116.6,98.8,2017,Infectious Diseases,
+1297,MARICOPA,115.3,98.8,2017,Infectious Diseases,
+1298,PIMA,100.3,98.8,2017,Infectious Diseases,
+1299,LA PAZ,95,98.8,2017,Infectious Diseases,
+1300,GRAHAM,47.7,98.8,2017,Infectious Diseases,
+1301,NAVAJO,42.3,98.8,2017,Infectious Diseases,
+1302,APACHE,42.2,98.8,2017,Infectious Diseases,
+1303,SANTA CRUZ,36.9,98.8,2017,Infectious Diseases,
+1304,MOHAVE,32.5,98.8,2017,Infectious Diseases,
+1305,GREENLEE,30.3,98.8,2017,Infectious Diseases,
+1306,YAVAPAI,26.5,98.8,2017,Infectious Diseases,
+1307,COCHISE,24.9,98.8,2017,Infectious Diseases,
+1308,COCONINO,22.7,98.8,2017,Infectious Diseases,
+1309,YUMA,13.6,98.8,2017,Infectious Diseases,
+1310,PINAL,120.1,88.9,2016,Infectious Diseases,
+1311,MARICOPA,104.7,88.9,2016,Infectious Diseases,
+1312,PIMA,88.3,88.9,2016,Infectious Diseases,
+1313,GILA,62.2,88.9,2016,Infectious Diseases,
+1314,LA PAZ,59.6,88.9,2016,Infectious Diseases,
+1315,GRAHAM,44.1,88.9,2016,Infectious Diseases,
+1316,GREENLEE,30.7,88.9,2016,Infectious Diseases,
+1317,NAVAJO,30.4,88.9,2016,Infectious Diseases,
+1318,COCONINO,30.2,88.9,2016,Infectious Diseases,
+1319,COCHISE,24.9,88.9,2016,Infectious Diseases,
+1320,YAVAPAI,24.7,88.9,2016,Infectious Diseases,
+1321,MOHAVE,23.5,88.9,2016,Infectious Diseases,
+1322,APACHE,22.4,88.9,2016,Infectious Diseases,
+1323,SANTA CRUZ,21.6,88.9,2016,Infectious Diseases,
+1324,YUMA,8.8,88.9,2016,Infectious Diseases,
+1325,PINAL,166.5,113.1,2015,Infectious Diseases,
+1326,MARICOPA,130,113.1,2015,Infectious Diseases,
+1327,PIMA,119.7,113.1,2015,Infectious Diseases,
+1328,GILA,94.6,113.1,2015,Infectious Diseases,
+1329,LA PAZ,69.1,113.1,2015,Infectious Diseases,
+1330,NAVAJO,59.5,113.1,2015,Infectious Diseases,
+1331,GREENLEE,42.6,113.1,2015,Infectious Diseases,
+1332,GRAHAM,42.3,113.1,2015,Infectious Diseases,
+1333,COCHISE,38.5,113.1,2015,Infectious Diseases,
+1334,APACHE,32.2,113.1,2015,Infectious Diseases,
+1335,SANTA CRUZ,30.3,113.1,2015,Infectious Diseases,
+1336,MOHAVE,29.5,113.1,2015,Infectious Diseases,
+1337,YAVAPAI,28,113.1,2015,Infectious Diseases,
+1338,COCONINO,22.5,113.1,2015,Infectious Diseases,
+1339,YUMA,19.8,113.1,2015,Infectious Diseases,
+1340,PINAL,117.1,84.4,2014,Infectious Diseases,
+1341,MARICOPA,97.5,84.4,2014,Infectious Diseases,
+1342,PIMA,89.1,84.4,2014,Infectious Diseases,
+1343,LA PAZ,84.8,84.4,2014,Infectious Diseases,
+1344,GILA,64.5,84.4,2014,Infectious Diseases,
+1345,COCHISE,47.8,84.4,2014,Infectious Diseases,
+1346,GREENLEE,44.2,84.4,2014,Infectious Diseases,
+1347,GRAHAM,37.2,84.4,2014,Infectious Diseases,
+1348,SANTA CRUZ,29.7,84.4,2014,Infectious Diseases,
+1349,NAVAJO,27.1,84.4,2014,Infectious Diseases,
+1350,MOHAVE,26.4,84.4,2014,Infectious Diseases,
+1351,COCONINO,21.8,84.4,2014,Infectious Diseases,
+1352,YAVAPAI,18.7,84.4,2014,Infectious Diseases,
+1353,APACHE,16.1,84.4,2014,Infectious Diseases,
+1354,YUMA,12.4,84.4,2014,Infectious Diseases,
+1355,MARICOPA,104.1,89,2013,Infectious Diseases,
+1356,PINAL,102.9,89,2013,Infectious Diseases,
+1357,PIMA,99.2,89,2013,Infectious Diseases,
+1358,GILA,74.2,89,2013,Infectious Diseases,
+1359,LA PAZ,64,89,2013,Infectious Diseases,
+1360,GRAHAM,45.9,89,2013,Infectious Diseases,
+1361,COCHISE,45,89,2013,Infectious Diseases,
+1362,SANTA CRUZ,39.6,89,2013,Infectious Diseases,
+1363,NAVAJO,33.6,89,2013,Infectious Diseases,
+1364,MOHAVE,29.3,89,2013,Infectious Diseases,
+1365,YAVAPAI,21.2,89,2013,Infectious Diseases,
+1366,APACHE,19.1,89,2013,Infectious Diseases,
+1367,COCONINO,15.6,89,2013,Infectious Diseases,
+1368,YUMA,12.1,89,2013,Infectious Diseases,
+1369,GREENLEE,11.4,89,2013,Infectious Diseases,
+1370,MARICOPA,258.8,198.1,2012,Infectious Diseases,
+1371,PINAL,200.4,198.1,2012,Infectious Diseases,
+1372,PIMA,156.5,198.1,2012,Infectious Diseases,
+1373,LA PAZ,122.7,198.1,2012,Infectious Diseases,
+1374,GILA,92.6,198.1,2012,Infectious Diseases,
+1375,GRAHAM,89,198.1,2012,Infectious Diseases,
+1376,MOHAVE,53.6,198.1,2012,Infectious Diseases,
+1377,SANTA CRUZ,39.8,198.1,2012,Infectious Diseases,
+1378,NAVAJO,36.3,198.1,2012,Infectious Diseases,
+1379,COCHISE,35.8,198.1,2012,Infectious Diseases,
+1380,COCONINO,35.7,198.1,2012,Infectious Diseases,
+1381,YAVAPAI,25,198.1,2012,Infectious Diseases,
+1382,APACHE,23.4,198.1,2012,Infectious Diseases,
+1383,GREENLEE,23,198.1,2012,Infectious Diseases,
+1384,YUMA,16.2,198.1,2012,Infectious Diseases,
+1385,MARICOPA,347,255.1,2011,Infectious Diseases,
+1386,LA PAZ,220.2,255.1,2011,Infectious Diseases,
+1387,PINAL,215.2,255.1,2011,Infectious Diseases,
+1388,PIMA,168.7,255.1,2011,Infectious Diseases,
+1389,GRAHAM,94.2,255.1,2011,Infectious Diseases,
+1390,GILA,93.9,255.1,2011,Infectious Diseases,
+1391,MOHAVE,69.4,255.1,2011,Infectious Diseases,
+1392,COCHISE,53.5,255.1,2011,Infectious Diseases,
+1393,NAVAJO,52.1,255.1,2011,Infectious Diseases,
+1394,COCONINO,42.4,255.1,2011,Infectious Diseases,
+1395,SANTA CRUZ,42,255.1,2011,Infectious Diseases,
+1396,YAVAPAI,27.9,255.1,2011,Infectious Diseases,
+1397,APACHE,26.3,255.1,2011,Infectious Diseases,
+1398,YUMA,15,255.1,2011,Infectious Diseases,
+1399,GREENLEE,11.7,255.1,2011,Infectious Diseases,
+1400,MARICOPA,247.8,186,2010,Infectious Diseases,
+1401,PINAL,149.8,186,2010,Infectious Diseases,
+1402,PIMA,145.9,186,2010,Infectious Diseases,
+1403,LA PAZ,126.9,186,2010,Infectious Diseases,
+1404,GILA,85.8,186,2010,Infectious Diseases,
+1405,GRAHAM,64.5,186,2010,Infectious Diseases,
+1406,MOHAVE,59,186,2010,Infectious Diseases,
+1407,COCHISE,36.5,186,2010,Infectious Diseases,
+1408,APACHE,32.2,186,2010,Infectious Diseases,
+1409,NAVAJO,31.6,186,2010,Infectious Diseases,
+1410,COCONINO,30.5,186,2010,Infectious Diseases,
+1411,SANTA CRUZ,29.5,186,2010,Infectious Diseases,
+1412,YAVAPAI,18.5,186,2010,Infectious Diseases,
+1413,GREENLEE,11.9,186,2010,Infectious Diseases,
+1414,YUMA,10.7,186,2010,Infectious Diseases,
+1415,APACHE,958.715,691.953,2017,Mortality,
+1416,NAVAJO,893.631,691.953,2017,Mortality,
+1417,MOHAVE,876.783,691.953,2017,Mortality,
+1418,GILA,856.5,691.953,2017,Mortality,
+1419,LA PAZ,834.433,691.953,2017,Mortality,
+1420,GRAHAM,827.516,691.953,2017,Mortality,
+1421,COCHISE,770.703,691.953,2017,Mortality,
+1422,YAVAPAI,747.053,691.953,2017,Mortality,
+1423,COCONINO,706.144,691.953,2017,Mortality,
+1424,PIMA,695.164,691.953,2017,Mortality,
+1425,MARICOPA,649.413,691.953,2017,Mortality,
+1426,GREENLEE,636.159,691.953,2017,Mortality,
+1427,PINAL,623.86,691.953,2017,Mortality,
+1428,YUMA,570.793,691.953,2017,Mortality,
+1429,SANTA CRUZ,552.957,691.953,2017,Mortality,
+1430,GILA,"1,056.5",705.8,2016,Mortality,
+1431,MOHAVE,"1,053.5",705.8,2016,Mortality,
+1432,APACHE,"1,052.5",705.8,2016,Mortality,
+1433,NAVAJO,988.2,705.8,2016,Mortality,
+1434,COCHISE,857.5,705.8,2016,Mortality,
+1435,COCONINO,835.2,705.8,2016,Mortality,
+1436,LA PAZ,835.2,705.8,2016,Mortality,
+1437,YAVAPAI,816.1,705.8,2016,Mortality,
+1438,GRAHAM,812.7,705.8,2016,Mortality,
+1439,PIMA,793.7,705.8,2016,Mortality,
+1440,PINAL,791.8,705.8,2016,Mortality,
+1441,MARICOPA,765.8,705.8,2016,Mortality,
+1442,YUMA,680.6,705.8,2016,Mortality,
+1443,SANTA CRUZ,634.2,705.8,2016,Mortality,
+1444,GREENLEE,557.5,705.8,2016,Mortality,
+1445,APACHE,"1,045.2",704.9,2015,Mortality,
+1446,GILA,"1,031.4",704.9,2015,Mortality,
+1447,MOHAVE,995.5,704.9,2015,Mortality,
+1448,NAVAJO,891.5,704.9,2015,Mortality,
+1449,COCHISE,823.9,704.9,2015,Mortality,
+1450,YAVAPAI,816.4,704.9,2015,Mortality,
+1451,PINAL,806.5,704.9,2015,Mortality,
+1452,COCONINO,788,704.9,2015,Mortality,
+1453,PIMA,772.3,704.9,2015,Mortality,
+1454,MARICOPA,740.3,704.9,2015,Mortality,
+1455,GREENLEE,727.7,704.9,2015,Mortality,
+1456,LA PAZ,725.2,704.9,2015,Mortality,
+1457,GRAHAM,722.9,704.9,2015,Mortality,
+1458,YUMA,645.6,704.9,2015,Mortality,
+1459,SANTA CRUZ,604.3,704.9,2015,Mortality,
+1460,APACHE,963.1,685.9,2014,Mortality,
+1461,GILA,941.9,685.9,2014,Mortality,
+1462,NAVAJO,919.7,685.9,2014,Mortality,
+1463,MOHAVE,847.1,685.9,2014,Mortality,
+1464,GRAHAM,835.4,685.9,2014,Mortality,
+1465,YAVAPAI,787,685.9,2014,Mortality,
+1466,COCHISE,753.8,685.9,2014,Mortality,
+1467,LA PAZ,752.8,685.9,2014,Mortality,
+1468,COCONINO,736.8,685.9,2014,Mortality,
+1469,PIMA,730.4,685.9,2014,Mortality,
+1470,PINAL,719.9,685.9,2014,Mortality,
+1471,MARICOPA,717.1,685.9,2014,Mortality,
+1472,YUMA,645,685.9,2014,Mortality,
+1473,SANTA CRUZ,584.7,685.9,2014,Mortality,
+1474,GREENLEE,549.8,685.9,2014,Mortality,
+1475,NAVAJO,917.1,693.7,2013,Mortality,
+1476,APACHE,916.6,693.7,2013,Mortality,
+1477,GILA,898.5,693.7,2013,Mortality,
+1478,MOHAVE,854.5,693.7,2013,Mortality,
+1479,GRAHAM,795.4,693.7,2013,Mortality,
+1480,YAVAPAI,773,693.7,2013,Mortality,
+1481,COCHISE,737.9,693.7,2013,Mortality,
+1482,LA PAZ,727.8,693.7,2013,Mortality,
+1483,PIMA,693.3,693.7,2013,Mortality,
+1484,MARICOPA,672.9,693.7,2013,Mortality,
+1485,COCONINO,671.3,693.7,2013,Mortality,
+1486,PINAL,624.4,693.7,2013,Mortality,
+1487,SANTA CRUZ,583.6,693.7,2013,Mortality,
+1488,YUMA,569.3,693.7,2013,Mortality,
+1489,GREENLEE,519.8,693.7,2013,Mortality,
+1490,GRAHAM,884.3,691.5,2012,Mortality,
+1491,NAVAJO,870.7,691.5,2012,Mortality,
+1492,APACHE,844.7,691.5,2012,Mortality,
+1493,MOHAVE,827.3,691.5,2012,Mortality,
+1494,GILA,824.3,691.5,2012,Mortality,
+1495,LA PAZ,753,691.5,2012,Mortality,
+1496,YAVAPAI,752.2,691.5,2012,Mortality,
+1497,GREENLEE,748.8,691.5,2012,Mortality,
+1498,COCONINO,729.4,691.5,2012,Mortality,
+1499,COCHISE,723.4,691.5,2012,Mortality,
+1500,PIMA,715,691.5,2012,Mortality,
+1501,MARICOPA,662.4,691.5,2012,Mortality,
+1502,PINAL,646.2,691.5,2012,Mortality,
+1503,SANTA CRUZ,632.7,691.5,2012,Mortality,
+1504,YUMA,617.6,691.5,2012,Mortality,
+1505,APACHE,936.9,689.7,2011,Mortality,
+1506,GILA,883.5,689.7,2011,Mortality,
+1507,NAVAJO,874.1,689.7,2011,Mortality,
+1508,GREENLEE,850.4,689.7,2011,Mortality,
+1509,MOHAVE,811.5,689.7,2011,Mortality,
+1510,GRAHAM,728.1,689.7,2011,Mortality,
+1511,COCHISE,727.2,689.7,2011,Mortality,
+1512,YAVAPAI,715.1,689.7,2011,Mortality,
+1513,COCONINO,712.5,689.7,2011,Mortality,
+1514,PIMA,702.7,689.7,2011,Mortality,
+1515,MARICOPA,666.5,689.7,2011,Mortality,
+1516,PINAL,661,689.7,2011,Mortality,
+1517,YUMA,621.6,689.7,2011,Mortality,
+1518,LA PAZ,577.4,689.7,2011,Mortality,
+1519,SANTA CRUZ,518.1,689.7,2011,Mortality,
+1520,GRAHAM,915.1,680.6,2010,Mortality,
+1521,APACHE,883.9,680.6,2010,Mortality,
+1522,GILA,824.2,680.6,2010,Mortality,
+1523,NAVAJO,813.6,680.6,2010,Mortality,
+1524,MOHAVE,801.7,680.6,2010,Mortality,
+1525,COCHISE,765.2,680.6,2010,Mortality,
+1526,COCONINO,706.2,680.6,2010,Mortality,
+1527,YAVAPAI,704.3,680.6,2010,Mortality,
+1528,PIMA,696.6,680.6,2010,Mortality,
+1529,GREENLEE,682.4,680.6,2010,Mortality,
+1530,MARICOPA,654.3,680.6,2010,Mortality,
+1531,PINAL,645.4,680.6,2010,Mortality,
+1532,LA PAZ,633.6,680.6,2010,Mortality,
+1533,YUMA,608,680.6,2010,Mortality,
+1534,SANTA CRUZ,560,680.6,2010,Mortality,

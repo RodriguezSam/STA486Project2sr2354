@@ -1,0 +1,10 @@
+"0","ggplot(asthma, aes(x=Year, y=Value)) + geom_point() + geom_smooth(se=F) +"
+"0","  scale_x_date(date_labels = ""%Y"", date_breaks = ""1 year"") + "
+"0","  geom_line(aes(x=Year, y=State..Rate.), size=1, color=""red"") + "
+"0","  ylab(""Rate (per 10,000 population)"") + "
+"0","  ggtitle(""Mohave County Asthma Emergency Visits Compared to the State Rate"") +"
+"0","  labs(caption = ""Figure 2. The rate of the Mohave county for emergency visits that have to do with"
+"0","  asthma (Blue).  The rate of the state of Arizona for emergency visits that have to "
+"0","  do with asthma (Red). The rate number is age adjusted per 10,000 population."")"
+"2","`geom_smooth()` using method = 'loess' and formula 'y ~ x'
+"
