@@ -3,9 +3,9 @@
     "path": "~/STA486/STA486Project2sr2354/docs/FinalProjectProposal.Rmd",
     "project_path": "docs/FinalProjectProposal.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1497338015",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1647881347404.0,
     "source_on_save": false,
     "relative_order": 4,
@@ -17,11 +17,11 @@
         "scrollLine": "39"
     },
     "folds": "",
-    "lastKnownWriteTime": 1647897688,
+    "lastKnownWriteTime": 1647898775,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1647897894100,
+    "last_content_update": 1647898775485,
     "read_only": false,
     "read_only_alternatives": []
 }
