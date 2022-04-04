@@ -59,8 +59,6 @@ asthma <- hospitalData[hospitalData$Content.Area == "Asthma" &
                          hospitalData$County == "MOHAVE",]
 ```
 
-\begin{figure}[p]
-
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
 ggplot(asthma, aes(x=Year, y=State.Rate)) + geom_point() + 
   ylab("State Rate (per 10,000 population)") + 
@@ -71,11 +69,9 @@ ggplot(asthma, aes(x=Year, y=State.Rate)) + geom_point() +
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 ```
 
-\end{figure}
-
 \newpage
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center'}
 ggplot(asthma, aes(x=Year, y=County.Value)) + geom_point() + geom_smooth(se=F) +
   scale_x_date(date_labels = "%Y", date_breaks = "1 year") + 
   geom_line(aes(x=Year, y=State.Rate), size=1, color="red") + 
