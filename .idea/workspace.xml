@@ -2,40 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92bc1cbd-4f7b-4677-8c71-c1107eefebc9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/source-pane.pper" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/source-pane.pper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/windowlayoutstate.pper" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/windowlayoutstate.pper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/482E275F" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/482E275F" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/0487EF73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/0487EF73-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/72F74469" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/72F74469-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/7A9C2105" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/7A9C2105-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/8B3B727B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/8B3B727B-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/9B4D6C94" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/9B4D6C94-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/AE1C664B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/AE1C664B-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/BA8E1B13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/BA8E1B13-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/C8DE2456" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/C8DE2456-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/CE667B93" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/CE667B93-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/E5310572" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/E5310572-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/E96654A5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/E96654A5-contents" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/s-10FA78D2/lock_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/CDF80580-FinalProjectProposal/1/3E259A4410FA78D2/chunks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/CDF80580-FinalProjectProposal/1/3E259A4410FA78D2/chunks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/CDF80580-FinalProjectProposal/1/s/chunks.json" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/CDF80580-FinalProjectProposal/1/s/chunks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/STA486Project2sr2354.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/STA486Project2sr2354.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FinalProjectProposal.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FinalProjectProposal.Rmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/FinalProjectProposal.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/FinalProjectProposal.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R/census-data.R" beforeDir="false" afterPath="$PROJECT_DIR$/R/census-data.R" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/census-data.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census-data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2011.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2011.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2012.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2012.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2013.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2013.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2014.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2015.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2016.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2017.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/census_data_2019.csv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/census_data_2019.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -175,6 +175,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='2']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -184,6 +186,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='2']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -231,6 +235,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='6']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -240,6 +246,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='6']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -287,6 +295,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='10']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -296,6 +306,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='10']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -332,6 +344,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='14']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -341,6 +355,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='14']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -377,6 +393,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='18']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -386,6 +404,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='18']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -422,6 +442,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='22']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -431,6 +453,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='22']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -467,6 +491,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='26']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -476,6 +502,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='26']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -512,6 +540,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='30']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -521,6 +551,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='30']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -557,6 +589,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='34']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -566,6 +600,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='34']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
@@ -602,6 +638,8 @@ for index in range(10):
     # inner_data = driver.find_elements(by=By.XPATH,
     #                                      value="html/body/div[1]/div[3]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]/div[3]/main[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/div[2]/div[1]/div[1]/div/div[1]")
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='38']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_two = pd.DataFrame()
     estimate_two["County"] = [e.text for e in inner_data]
     first_scroll = scroll_height
@@ -611,6 +649,8 @@ for index in range(10):
                           second_scroll)
     time.sleep(5)
     inner_data = driver.find_elements_by_css_selector("div[aria-colindex='38']")
+    inner_data.pop(0)
+    inner_data.pop(0)
     estimate_three = pd.DataFrame()
     estimate_three["County"] = [e.text for e in inner_data]
     first_scroll = second_scroll
