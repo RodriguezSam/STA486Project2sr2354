@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+author: "Samantha Rodriguez"
+date: "4/4/2022"
+output: pdf_document
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(STA486Project2sr2354)
+```
+
+```{r}
+asthma <- hospitalData[hospitalData$Content.Area == "Asthma",]
+ggplot(asthma, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+```
+
+```{r}
+cmp <- hospitalData[hospitalData$Content.Area == "Carbon Monoxide Poisoning"]
+ggplot(cmp, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+```
+

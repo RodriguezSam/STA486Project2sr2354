@@ -31,5 +31,10 @@ hospitalData$Content.Area <- as.factor(hospitalData$Content.Area)
 hospitalData$State..Avg. <- as.integer(hospitalData$State..Avg.)
 colnames(hospitalData) <- c("index", "County", "County.Value", 'State.Rate',
                             "Year", "Content.Area", "State.Avg")
+hospitalData <- hospitalData[!(hospitalData$County == "GILA" |
+                         hospitalData$County == "GRAHAM" |
+                         hospitalData$County == "GREENLEE" |
+                         hospitalData$County == "LA PAZ" |
+                           hospitalData$County == "SANTA CRUZ"),]
 
 usethis::use_data(hospitalData, overwrite=TRUE)
