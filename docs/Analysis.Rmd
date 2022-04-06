@@ -15,12 +15,146 @@ library(STA486Project2sr2354)
 ```{r}
 asthma <- hospitalData[hospitalData$Content.Area == "Asthma",]
 ggplot(asthma, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
-  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year") +
+  ggtitle("Asthma Vists in Arizona Counties") +
+  ylab("Age-adjusted rate per 10,000 population")
 ```
 
 ```{r}
-cmp <- hospitalData[hospitalData$Content.Area == "Carbon Monoxide Poisoning"]
+cmp <- hospitalData[hospitalData$Content.Area == "Carbon Monoxide Poisoning",]
 ggplot(cmp, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+copd <- hospitalData[hospitalData$Content.Area == "Chronic Obstructive Pulmonary Disease (COPD)",]
+ggplot(copd, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+dwq <- hospitalData[hospitalData$Content.Area == "Drinking Water Quality",]
+ggplot(dwq, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+fs <- hospitalData[hospitalData$Content.Area == "Food Safety",]
+ggplot(fs, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+hd <- hospitalData[hospitalData$Content.Area == "Heart Disease",]
+ggplot(hd, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+hsi <- hospitalData[hospitalData$Content.Area == "Heat Stress Illness",]
+ggplot(hsi, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+id <- hospitalData[hospitalData$Content.Area == "Infectious Diseases",]
+ggplot(id, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
+m <- hospitalData[hospitalData$Content.Area == "Mortality",]
+ggplot(m, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+  scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 ```
+
+
+```{r, eval=FALSE}
+asthma <- hospitalData[hospitalData$Content.Area == "Asthma" &
+                         hospitalData$County == "COCONINO",]
+asthma <- asthma %>% arrange(Year) %>% pull(County.Value)
+plot(asthma)
+acf(asthma)
+pacf(asthma)
+obj <- arima(asthma, order=c(1,0,0))
+acf(obj$residuals)
+predict(obj, n.ahead = 1)
+```
+
+```{r}
+hospital.wider <- hospitalData %>% select(-State.Rate)
+hospital.wider <- pivot_wider(hospital.wider, names_from = Content.Area,
+                              values_from = County.Value)
+```
+
+
+```{r}
+asthma.wider <- hospital.wider %>% select(c(County.Year, Asthma))
+asthma.data <- merge(asthma.wider, censusData)
+cmp.wider <- hospital.wider %>% select(c(County.Year, `Carbon Monoxide Poisoning`))
+cmp.data <- merge(cmp.wider, censusData)
+copd.wider <- hospital.wider %>% 
+  select(c(County.Year, `Chronic Obstructive Pulmonary Disease (COPD)`))
+copd.data <- merge(copd.wider, censusData)
+dwq.wider <- hospital.wider %>% 
+  select(c(County.Year, `Drinking Water Quality`))
+dwq.data <- merge(dwq.wider, censusData)
+fs.wider <- hospital.wider %>% 
+  select(c(County.Year, `Food Safety`))
+fs.data <- merge(fs.wider, censusData)
+hd.wider <- hospital.wider %>% 
+  select(c(County.Year, `Heart Disease`))
+hd.data <- merge(hd.wider, censusData)
+hsi.wider <- hospital.wider %>% 
+  select(c(County.Year, `Heat Stress Illness`))
+hsi.data <- merge(hsi.wider, censusData)
+id.wider <- hospital.wider %>% 
+  select(c(County.Year, `Infectious Diseases`))
+id.data <- merge(id.wider, censusData)
+m.wider <- hospital.wider %>% 
+  select(c(County.Year, `Mortality`))
+m.data <- merge(m.wider, censusData)
+all.data <- merge(hospital.wider, censusData)
+```
+
+```{r}
+# colnames(cor.data) <- c('x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'x8', 'x9',
+#                         'x10', 'x11', 'x12', 'x13', 'x14', 'x15', 'x16', 'x17',
+#                         'x18', 'x19', 'x20', 'x21', 'x22', 'x23', 'x24',
+#                         'x25', 'x26', 'x27', 'x28', 'x29', 'x30', 'x31', 'x32',
+#                         'x33', 'x34', 'x35', 
+#                         'x36', 'x37', 'x38', 'x39', 'x40', 'x41', 'x42', 'x43', 
+#                         'x44', 'x45', 'x46',
+#                         'x47', 'x48', 'x49', 'x50', 'x51', 'x52', 'x53', 'x54',
+#                         'x55', 'x56', 'x57',
+#                         'x58', 'x59', 'x60', 'x61', 'x62', 'x63', 'x64', 'x65',
+#                         'x66', 'x67', 'x68',
+#                         'x69', 'x70', 'x71', 'x72', 'x73', 'x74', 'x75', 'x76',
+#                         'x77', 'x78', 'x79',
+#                         'x80', 'x81', 'x82', 'x83', 'x84', 'x85', 'x86', 'x87',
+#                         'x88', 'x89', 'x90',
+#                         'x91', 'x92')
+```
+
+
+```{r, fig.height=20, fig.width=15}
+cor.data <- all.data %>% select(-c(County.Year, Year, County))
+cor.asthma <- asthma.data %>% select(-c(County.Year, Year, County))
+cor.cmp <- cmp.data %>% select(-c(County.Year, Year, County))
+cor.copd <- copd.data %>% select(-c(County.Year, Year, County))
+cor.dwq <- dwq.data %>% select(-c(County.Year, Year, County))
+cor.fs <- fs.data %>% select(-c(County.Year, Year, County))
+cor.hd <- hd.data %>% select(-c(County.Year, Year, County))
+cor.hsi <- hsi.data %>% select(-c(County.Year, Year, County))
+cor.id <- id.data %>% select(-c(County.Year, Year, County))
+cor.m <- m.data %>% select(-c(County.Year, Year, County))
+corrplot::corrplot(cor(cor.asthma, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.cmp, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.copd, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.dwq, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.fs, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.hd, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.hsi, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.id, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.m, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+corrplot::corrplot(cor(cor.data, use = 'pairwise.complete.obs'), tl.cex = 0.8)
+cor.v <- cor(cor.data)
+pos.cor <- cor.v[cor.v > 0.5]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

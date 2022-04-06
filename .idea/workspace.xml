@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92bc1cbd-4f7b-4677-8c71-c1107eefebc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/persistent-state" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/persistent-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/R/census-data.R" beforeDir="false" afterPath="$PROJECT_DIR$/R/census-data.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R/hospital-data.R" beforeDir="false" afterPath="$PROJECT_DIR$/R/hospital-data.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/censusData.rda" beforeDir="false" afterPath="$PROJECT_DIR$/data/censusData.rda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hospitalData.rda" beforeDir="false" afterPath="$PROJECT_DIR$/data/hospitalData.rda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Analysis.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Analysis.Rmd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
