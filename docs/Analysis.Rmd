@@ -2,7 +2,9 @@
 title: "Untitled"
 author: "Samantha Rodriguez"
 date: "4/4/2022"
-output: pdf_document
+output:
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -10,11 +12,27 @@ library(tidyverse)
 library(ggplot2)
 library(dplyr)
 library(STA486Project2sr2354)
+library(emmeans)
+library(kableExtra)
+library(knitr)
 ```
 
 ```{r}
+data <- hospitalData
+head(hospitalData)
+str(hospitalData)
+data.frame(variable = names(hospitalData),
+           class = sapply(hospitalData, typeof),
+           first.values = sapply(hospitalData, function(x) paste0(head(x),
+                                                                  collapse = ",")),
+           row.names = NULL) %>% 
+  kable(caption = "1535 obs. of 7 variables")
+```
+
+
+```{r}
 asthma <- hospitalData[hospitalData$Content.Area == "Asthma",]
-ggplot(asthma, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(asthma, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year") +
   ggtitle("Asthma Vists in Arizona Counties") +
   ylab("Age-adjusted rate per 10,000 population")
@@ -22,28 +40,28 @@ ggplot(asthma, aes(x=Year, y=County.Value, color=County)) + geom_line() +
 
 ```{r}
 cmp <- hospitalData[hospitalData$Content.Area == "Carbon Monoxide Poisoning",]
-ggplot(cmp, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(cmp, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 copd <- hospitalData[hospitalData$Content.Area == "Chronic Obstructive Pulmonary Disease (COPD)",]
-ggplot(copd, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(copd, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 dwq <- hospitalData[hospitalData$Content.Area == "Drinking Water Quality",]
-ggplot(dwq, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(dwq, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 fs <- hospitalData[hospitalData$Content.Area == "Food Safety",]
-ggplot(fs, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(fs, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 hd <- hospitalData[hospitalData$Content.Area == "Heart Disease",]
-ggplot(hd, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(hd, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 hsi <- hospitalData[hospitalData$Content.Area == "Heat Stress Illness",]
-ggplot(hsi, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(hsi, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 id <- hospitalData[hospitalData$Content.Area == "Infectious Diseases",]
-ggplot(id, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(id, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 m <- hospitalData[hospitalData$Content.Area == "Mortality",]
-ggplot(m, aes(x=Year, y=County.Value, color=County)) + geom_line() + 
+ggplot(m, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year")
 ```
 
@@ -51,7 +69,7 @@ ggplot(m, aes(x=Year, y=County.Value, color=County)) + geom_line() +
 ```{r, eval=FALSE}
 asthma <- hospitalData[hospitalData$Content.Area == "Asthma" &
                          hospitalData$County == "COCONINO",]
-asthma <- asthma %>% arrange(Year) %>% pull(County.Value)
+asthma <- asthma %>% arrange(Date) %>% pull(County.Value)
 plot(asthma)
 acf(asthma)
 pacf(asthma)
@@ -61,9 +79,30 @@ predict(obj, n.ahead = 1)
 ```
 
 ```{r}
-hospital.wider <- hospitalData %>% select(-State.Rate)
+hospitalNew <- hospitalData[!(hospitalData$County == "gila" |
+                         hospitalData$County == "graham" |
+                         hospitalData$County == "greenlee" |
+                         hospitalData$County == "la paz" |
+                           hospitalData$County == "santa cruz"),]
+hospitalNew <- hospitalNew[!(hospitalNew$Date == "2005-04-10" |
+                                 hospitalNew$Date == "2006-04-10" |
+                                 hospitalNew$Date == "2007-04-10" |
+                                 hospitalNew$Date == "2008-04-10" |
+                                 hospitalNew$Date == "2009-04-10" |
+                               hospitalNew$Date == "2020-04-10"),]
+asthma <- hospitalNew[hospitalData$Content.Area == "Asthma",]
+```
+
+
+```{r}
+hospital.wider <- hospitalNew %>% select(-State.Rate)
 hospital.wider <- pivot_wider(hospital.wider, names_from = Content.Area,
                               values_from = County.Value)
+```
+
+```{r}
+all.data <- full_join(hospital.wider, censusData, by="County.Year") %>%
+  relocate(County.x, Year.x, County.y, Year.y, Date.x, Date.y)
 ```
 
 
@@ -93,7 +132,6 @@ id.data <- merge(id.wider, censusData)
 m.wider <- hospital.wider %>% 
   select(c(County.Year, `Mortality`))
 m.data <- merge(m.wider, censusData)
-all.data <- merge(hospital.wider, censusData)
 ```
 
 ```{r}
@@ -116,7 +154,7 @@ all.data <- merge(hospital.wider, censusData)
 ```
 
 
-```{r, fig.height=20, fig.width=15}
+```{r, fig.height=20, fig.width=15, eval=FALSE}
 cor.data <- all.data %>% select(-c(County.Year, Year, County))
 cor.asthma <- asthma.data %>% select(-c(County.Year, Year, County))
 cor.cmp <- cmp.data %>% select(-c(County.Year, Year, County))
@@ -141,16 +179,268 @@ cor.v <- cor(cor.data)
 pos.cor <- cor.v[cor.v > 0.5]
 ```
 
+```{r, eval=FALSE}
+test <- cor.test(hospital.wider$Asthma, censusData$Total.Population)
+test$p.value
+test$estimate
+cor.test(hospital.wider[,4], censusData$Total.Population)
+```
+
+```{r}
+all.data$Asthma <- as.numeric(all.data$Asthma)
+all.data <- all.data %>% select(-c(County.x, Year.x, Date.x, `Food Safety`))
+colnames(all.data)[1] <- "County"
+colnames(all.data)[2] <- "Year"
+colnames(all.data)[3] <- "Date"
+all.data$Year <- as.factor(all.data$Year)
+names(all.data) <- gsub(" ", ".", names(all.data))
+colnames(all.data)[7] <- "COPD"
+```
 
 
+```{r}
+correlation <- data.frame(Content.Area = character(),
+                          Demographic = character(),
+                          p.value = integer(),
+                          corr = integer())
+for(cont in 5:12){
+  for(demo in 13:95){
+    #print(paste(cont, demo))
+    hold <- cor.test(pull(all.data[,cont]), pull(all.data[,demo]))
+    corr.df <- data.frame(Content.Area = c(colnames(all.data)[cont]),
+                          Demographic = c(colnames(all.data)[demo]),
+                          p.value = c(hold$p.value),
+                          corr = c(hold$estimate))
+    if(is.na(correlation[1,1])){
+      correlation <- corr.df
+    }
+    else {
+      correlation <- rbind(correlation, corr.df)
+    }
+    
+  }
+}
+```
+
+```{r}
+correlation$adj.p.value <- p.adjust(correlation$p.value, method="bonferroni")
+```
+
+```{r}
+adj.cor <- correlation %>% filter(adj.p.value < 0.05) %>% arrange(corr)
+```
 
 
+```{r}
+#ggplot(all.data, aes(x=County, y=Asthma)) + geom_boxplot()
+for (index in 5:12) {
+  print(ggplot(all.data, aes_string(x="County", y=colnames(all.data)[index])) +
+    geom_boxplot())
+}
+```
 
 
+```{r, eval=FALSE}
+obj <- lm(Asthma ~ County, data=all.data)
+summary(obj)
+plot(obj)
+anova(obj)
+emmeans(obj, pairwise ~ County)
+```
 
 
+```{r}
+content.area.p <- data.frame(
+  County = factor(),
+  p.value = integer()
+)
+for (index in 5:12) {
+  obj <- lm(paste(colnames(all.data)[index], "~", 'County'), data=all.data)
+  sum.obj <- summary(obj)
+  f <- sum.obj$fstatistic
+  p <- pf(f[1], f[2], f[3], lower.tail=F)
+  p.df <- data.frame(County = colnames(all.data)[index],
+                     p.value = p)
+  if(index == 5)
+  {
+    content.area.p <- p.df
+  }
+  else
+  {
+    content.area.p <- rbind(content.area.p, p.df)
+  }
+  print(sum.obj)
+  print(anova(obj))
+  print(plot(obj))
+  #print(emmeans(obj, pairwise ~ County))
+}
+
+```
+
+```{r}
+content.area.p <- content.area.p %>% arrange(p.value)
+```
 
 
+```{r}
+obj <- lm(Asthma ~ County, data=all.data)
+letter.data.asthma <- emmeans(obj, specs = ~ County) %>%
+  multcomp::cld(Letters = letters, level = 0.95) %>%
+  mutate(.group = str_remove_all(.group, '\\s')) %>%
+  mutate(y=73)
+```
+
+```{r}
+ggplot(all.data, aes(x=reorder(County, Asthma), y=Asthma)) +
+  geom_boxplot() +
+  labs(x = 'County', y = 'Asthma') +
+  geom_text(data=letter.data.asthma, aes(x=County, y=y, label=.group), size=8)
+```
+
+
+```{r}
+for(iter in 5:12)
+{
+  obj <- lm(paste(colnames(all.data)[iter], "~", 'County'), data=all.data)
+  letter.data <- emmeans(obj, specs = ~ County) %>%
+    multcomp::cld(Letters = letters, level = 0.95) %>%
+    mutate(.group = str_remove_all(.group, '\\s')) %>%
+    mutate(y = max(all.data[,iter], na.rm=T) + (max(all.data[,iter], na.rm=T) * .05))
+  hold.data <- data.frame(
+    County = all.data$County,
+    Value = all.data[,iter]
+  )
+  hold.data <- hold.data %>% na.omit()
+  print(ggplot(hold.data, 
+               aes(x=reorder(County, !!sym(colnames(hold.data)[2]), FUN = median), 
+                   y=!!sym(colnames(hold.data)[2]))) +
+          geom_boxplot() +
+          labs(x = "County") +
+          geom_text(data = letter.data, aes(x=County, y=y, label=.group), 
+                    size = 8))
+}
+```
+
+```{r}
+final.p.value <- adj.cor %>% 
+  group_by(Content.Area) %>% slice(which.min(adj.p.value)) %>%
+  arrange(adj.p.value)
+```
+
+
+```{r}
+ggplot(all.data, aes(x=COPD, y=Median.Age, color=County)) + geom_point()
+ggplot(all.data, aes(x=Infectious.Diseases, y=Under.5.Population, color=County)) +
+  geom_point()
+ggplot(all.data, aes(x=Asthma, y=Median.Age, color=County)) + geom_point()
+```
+
+
+```{r}
+for (index in 1:6) {
+  print(ggplot(all.data, 
+               aes_string(x=pull(final.p.value[index,1]), 
+                          y=pull(final.p.value[index,2]))) +
+          geom_point() + geom_smooth(method="lm", model='y~x')) 
+}
+```
+
+```{r}
+ggplot(all.data, 
+       aes(x=Heat.Stress.Illness, y=AI.and.AN)) +
+  geom_point() + geom_smooth(method="loess", model='y~x')
+```
+
+
+```{r, eval=FALSE}
+hospital.info <- str(hospital.wider)
+write.table(hospital.info, file = "hospital.txt", sep = ",", quote = FALSE, row.names = T)
+```
+
+
+```{r}
+data.frame(variable = names(hospital.wider),
+           class = sapply(hospital.wider, typeof),
+           first.values = sapply(hospital.wider, function(x) paste0(head(x),
+                                                                  collapse = ",")),
+           row.names = NULL) %>% 
+  kable(caption = "100 obs. of 13 variables")
+```
+
+```{r}
+data.frame(variable = names(censusData),
+           class = sapply(censusData, typeof),
+           first.values = sapply(censusData, function(x) paste0(head(x),
+                                                                  collapse = ",")),
+           row.names = NULL) %>% 
+  kable()
+```
+
+```{r}
+data.frame(variable = names(all.data),
+           class = sapply(all.data, typeof),
+           first.values = sapply(all.data, function(x) paste0(head(x),
+                                                                  collapse = ",")),
+           row.names = NULL) %>% 
+  kable()
+```
+
+
+```{r}
+content.area.p %>% 
+  mutate_if(is.numeric, funs(as.character(signif(., 3)))) %>%
+  kable(.)
+```
+
+
+```{r}
+adj.cor[adj.cor$Content.Area == "Heat.Stress.Illness",] %>% kable()
+```
+
+```{r}
+adj.cor[adj.cor$Content.Area == "Heart.Disease",] %>% 
+  mutate_if(is.numeric, funs(as.character(signif(., 3)))) %>% kable()
+adj.cor[adj.cor$Content.Area == "COPD",] %>% 
+  mutate_if(is.numeric, funs(as.character(signif(., 3)))) %>% kable()
+adj.cor[adj.cor$Content.Area == "Asthma",] %>% 
+  mutate_if(is.numeric, funs(as.character(signif(., 3)))) %>% kable()
+```
+
+
+```{r}
+obj <- lm(Asthma ~ County, data=all.data)
+letter.data <- emmeans(obj, specs = ~ County) %>%
+  multcomp::cld(Letters = letters, level = 0.95) %>%
+  mutate(.group = str_remove_all(.group, '\\s')) %>%
+  mutate(y = max(all.data$Asthma, na.rm=T) + 
+           (max(all.data$Asthma, na.rm=T) * .05))
+hold.data <- data.frame(
+  County = all.data$County,
+  Value = all.data$Asthma
+)
+hold.data <- hold.data %>% na.omit()
+ggplot(hold.data, 
+               aes(x=reorder(County, Value, FUN = median), 
+                   y=Value)) +
+          geom_boxplot() +
+          labs(x = "County",
+               y = "Age-adjusted rate per 10,000 population",
+               title = "Emergency Department Visists for Asthma") +
+          geom_text(data = letter.data, aes(x=County, y=y, label=.group), 
+                    size = 8)
+```
+
+```{r}
+ggplot(all.data, 
+               aes(x=Asthma, 
+                          y=Vietnamese)) +
+          geom_point(aes(color=County)) + geom_smooth(method="lm", model='y~x') +
+  labs(x="Age-adjusted rate per 10,000 population",
+       y="Vietnamese Population",
+       title="Vietnamese Population per Asthma Emergency Visits") +
+  coord_cartesian(xlim = c(20,50),
+                  ylim = c(0,25000))
+```
 
 
 

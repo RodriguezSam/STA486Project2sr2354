@@ -17,8 +17,8 @@
 "hospitalData"
 
 
-# library(dplyr)
-# library(tidyverse)
+library(dplyr)
+library(tidyverse)
 library(usethis)
 
 hospitalData <- read.csv('docs/hospital_data.csv')
@@ -26,22 +26,12 @@ hospitalData$County <- tolower(hospitalData$County)
 hospitalData$County <- as.factor(hospitalData$County)
 hospitalData$Value <- as.integer(hospitalData$Value)
 hospitalData$Year <- as.character(hospitalData$Year)
-hospitalData$Year <- as.Date(hospitalData$Year, "%Y")
+hospitalData$Date <- as.Date(hospitalData$Year, "%Y")
 hospitalData$Content.Area <- as.factor(hospitalData$Content.Area)
 hospitalData$State..Avg. <- as.integer(hospitalData$State..Avg.)
 colnames(hospitalData) <- c("index", "County", "County.Value", 'State.Rate',
-                            "Year", "Content.Area", "State.Avg")
-hospitalData <- hospitalData[!(hospitalData$County == "GILA" |
-                         hospitalData$County == "graham" |
-                         hospitalData$County == "greenlee" |
-                         hospitalData$County == "la paz" |
-                           hospitalData$County == "santa cruz"),]
-hospitalData <- hospitalData[!(hospitalData$Year == "2005-04-05" |
-                                 hospitalData$Year == "2006-04-05" |
-                                 hospitalData$Year == "2007-04-05" |
-                                 hospitalData$Year == "2008-04-05" |
-                                 hospitalData$Year == "2009-04-05"),]
-hospitalData$County.Year <- paste(hospitalData$County, hospitalData$Year)
+                            "Year", "Content.Area", "State.Avg", "Date")
+hospitalData$County.Year <- paste0(hospitalData$County, hospitalData$Year)
 hospitalData <- hospitalData %>% select(-index)
 hospitalData <- hospitalData %>%
   mutate(State.Rate=ifelse(is.na(State.Rate), State.Avg, State.Rate)) %>%

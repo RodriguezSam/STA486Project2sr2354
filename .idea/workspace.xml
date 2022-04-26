@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92bc1cbd-4f7b-4677-8c71-c1107eefebc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.RData" beforeDir="false" afterPath="$PROJECT_DIR$/.RData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/.Rhistory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/files-pane.pper" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/files-pane.pper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/source-pane.pper" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/source-pane.pper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/workbench-pane.pper" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/pcs/workbench-pane.pper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/persistent-state" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/persistent-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/rmd-outputs" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/rmd-outputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/2E07F530" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" beforeDir="false" afterPath="$PROJECT_DIR$/.Rproj.user/3E259A44/sources/prop/BF97F8B0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -11,6 +17,8 @@
       <change beforePath="$PROJECT_DIR$/data/censusData.rda" beforeDir="false" afterPath="$PROJECT_DIR$/data/censusData.rda" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hospitalData.rda" beforeDir="false" afterPath="$PROJECT_DIR$/data/hospitalData.rda" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Analysis.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Analysis.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Analysis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Analysis.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/docs/chromedriver.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

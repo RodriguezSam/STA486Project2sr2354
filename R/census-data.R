@@ -220,36 +220,36 @@ census13$Labels <- labelsNew
 census12$Labels <- labelsNew
 census11$Labels <- labelsNew
 census10$Labels <- labelsNew
-colnames(census19) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+colnames(census19) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census18) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census18) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census17) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census17) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census16) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census16) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census15) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census15) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census14) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census14) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census13) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census13) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census12) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census12) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census11) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census11) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
-colnames(census10) <- c("index", "Labels", "Apache", "Cochies", "Coconino",
+                        "Yavapai", "Yuma", "Year")
+colnames(census10) <- c("index", "Labels", "Apache", "Cochise", "Coconino",
                         "Maricopa", "Mohave", "Navajo", "Pima", "Pinal",
-                        "Yavapi", "Yuma", "Year")
+                        "Yavapai", "Yuma", "Year")
 census_data <- rbind(census19, census18)
 census_data <- rbind(census_data, census17)
 census_data <- rbind(census_data, census16)
@@ -269,11 +269,11 @@ censusData <- census[!(census$Labels == "SEX.AND.AGE" |
                           census$Labels == "CITIZEN.VOTING.AGE.POPULATION"),]
 censusData$Labels <- as.factor(censusData$Labels)
 censusData$Year <- as.character(censusData$Year)
-censusData$Year <- as.Date(censusData$Year, "%Y")
+censusData$Date <- as.Date(censusData$Year, "%Y")
 censusData$County <- tolower(censusData$County)
 censusData$County <- as.factor(censusData$County)
 censusData$Estimate <- as.numeric(gsub(",","",censusData$Estimate))
-censusData$County.Year <- paste(censusData$County, censusData$Year)
+censusData$County.Year <- paste0(censusData$County, censusData$Year)
 censusData <- censusData %>% select(-index)
 censusData <- pivot_wider(censusData, names_from = Labels, values_from = Estimate)
 censusData <- censusData %>% select(-Over.65) %>%
