@@ -31,10 +31,10 @@ data.frame(variable = names(hospitalData),
 
 
 ```{r}
-asthma <- hospitalData[hospitalData$Content.Area == "Asthma",]
+asthma <- hospitalData[hospitalData$Content.Area == "Heart Disease",]
 ggplot(asthma, aes(x=Date, y=County.Value, color=County)) + geom_line() + 
   scale_x_date(date_labels = "%Y", date_breaks = "1 year") +
-  ggtitle("Asthma Vists in Arizona Counties") +
+  ggtitle("Heart Attack Hospitalizations Amoung Persons 35 and Over in AZ Counties") +
   ylab("Age-adjusted rate per 10,000 population")
 ```
 
@@ -425,24 +425,43 @@ ggplot(hold.data,
           geom_boxplot() +
           labs(x = "County",
                y = "Age-adjusted rate per 10,000 population",
-               title = "Emergency Department Visists for Asthma") +
+               title = "Emergency Department Visits for Asthma") +
           geom_text(data = letter.data, aes(x=County, y=y, label=.group), 
                     size = 8)
 ```
 
 ```{r}
 ggplot(all.data, 
-               aes(x=Asthma, 
-                          y=Vietnamese)) +
+               aes(x=Over.65.Sex.Ration, 
+                          y=Heart.Disease)) +
           geom_point(aes(color=County)) + geom_smooth(method="lm", model='y~x') +
-  labs(x="Age-adjusted rate per 10,000 population",
-       y="Vietnamese Population",
-       title="Vietnamese Population per Asthma Emergency Visits") +
-  coord_cartesian(xlim = c(20,50),
-                  ylim = c(0,25000))
+  labs(x="Over 65 Sex Ratio (males per 100 females)",
+       y="Age-adjusted rate per 10,000 population",
+       title="Heart Attack Hospitalizations Amoung Persons 35 and Over Sex Ratio") 
+
+ggplot(all.data, 
+               aes(x=Over.65.Sex.Ration, 
+                          y=Heart.Disease, color=County)) +
+          geom_point() + geom_smooth(method="lm", model='y~x') +
+  labs(x="Over 65 Sex Ratio (males per 100 females)",
+       y="Age-adjusted rate per 10,000 population",
+       title="Heart Attack Hospitalizations Amoung Persons 35 and Over Sex Ratio")
 ```
 
+```{r}
+obj <- lm(Heart.Disease ~ County, data = all.data)
+anova(obj)
+plot(obj)
+```
 
+\newpage
+
+```{r}
+str(hospitalData)
+str(hospital.wider)
+str(censusData)
+str(all.data)
+```
 
 
 

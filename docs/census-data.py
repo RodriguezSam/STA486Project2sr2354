@@ -85,11 +85,11 @@ for index in range(10):
         county_headers[i+1] = next_county.text
         time.sleep(5)
     counties = county_headers
-    county_headers.insert(0,"Labels")
+    county_headers.insert(0, "Labels")
 
     main_data = pd.DataFrame(columns=county_headers)
     print(main_data)
-    # SCROLL BACK
+
     driver.execute_script("arguments[0].scrollLeft -= 8000", scroll_horizontal)
     time.sleep(5)
 
